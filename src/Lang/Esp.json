@@ -16,7 +16,8 @@
     },
     "socias": {
         "nombres":{
-
+            "luz":"Luz Elena Reyes de la Torre",
+            "itzia":"Itziar Esparza Mejía"
         },
         "title":"Socias",
         "Luz":{
@@ -61,42 +62,42 @@
         "p6":"6. Mx-USA Trade Planning"
     },
     "remedios": {
-        "title":"1. Remedios Comerciales",
+        "title":"I. Remedios Comerciales",
         "antidumping":{
-            "h1":"1. Antidumping",
+            "h1":"Antidumping",
             "p1":"T-REZ se ha especializado en investigaciones promovidas por la industria nacional para defender una competencia leal y asegurar una cancha pareja.",
             "p2":"Frente a una competencia internacional, presumiblemente desleal, T-REZ realiza las investigaciones previas y estudios de factibilidad con la metodología de la legislación vigente nacional e internacional, para determinar si el caso tiene méritos y si tiene buenas probabilidades de éxito; es decir,  de que al final del procedimiento se impongan cuotas compensatorias a las importaciones desleales.",
             "p3":"T-REZ representa a la rama de producción nacional durante el procedimiento y elabora todos los estudios económicos  y escritos legales para la defensa de la industria."
         },
         "subvenciones":{
-            "h1":"2. Anti-subvenciones",
+            "h1":"Anti-subvenciones",
             "p1":"Una de las socias fundadoras es Miembros del Grupo Permanente de Expertos de la OMC en materia de Subvenciones y Derechos Compensatorios;  a nivel nacional representó a la industria mexicana en uno de los pocos casos en contra de subvenciones en México, específicamente en contra de subvenciones agropecuarias otorgadas por la Comisión Europea a  España e Italia.",
             "p2":"T-REZ analiza la existencia de subvenciones, así como si estas son compensables y, en su caso, elabora los documentos económicos y legales para defender y representar a la industria nacional en el procedimiento."
         },
         "salvaguardias":{
-            "h1":"3. Salvaguardias",
+            "h1":"Salvaguardias",
             "p1":"Cuando existen incrementos significativos de las importaciones que causan o amenazan causar un daño grave a la industria mexicana, a pesar de que no exista práctica desleal, T-REZ realiza los estudios y argumentos necesarios para solicitar medidas de salvaguarda en forma de incrementos temporales de aranceles o establecimiento de cupos para que la industria nacional pueda realizar los programas de ajuste necesarios para mejor sus niveles competitivos.",
             "p2":"Una de las socias fundadoras dirigió los estudios y representó al sector avícola nacional en la única salvaguarda bilateral al amparo del TLCAN realizada en México, que culminó con una exitosa negociación entre los sectores de los dos países y con medidas que se aplicaron durante 5 años."
 
         },
         "examenes":{
-            "h1":"4. Exámenes de vigencia",
+            "h1":"Exámenes de vigencia",
             "p1":"Previo a la conclusión de los 5 años de vigencia de las cuotas compensatorias, existe un procedimiento que permite, en caso de cumplirse con los supuestos previstos le ley, prorrogar dichas cuotas.",
             "p2":"Las socias fundadoras han representado exitosamente a diversas industrias nacionales en los exámenes quinquenales."
 
         },
         "reviciones":{
-            "h1":"5. Revisiones anuales",
+            "h1":"Revisiones anuales",
             "p1":"T-REZ representa a la industria nacional en los casos en los que un exportador solicita que se revisen sus márgenes de dumping en un periodo más reciente al investigado en el procedimiento original, para lograr que se reduzcan o eliminen las cuotas compensatorias impuestas; por lo que es importante la industria nacional participe y se asegure que se siguen los procedimientos adecuados y se aplican la metodologías pertinentes con el fin de que no se eliminen o reduzcan injustificadamente las cuotas compensatorias. T-REZ se encarga de ésta defensa en nombre de la industria nacional."
 
         },
         "elusion":{
-            "h1":"6. Anti - elusión ",
+            "h1":"Anti - elusión ",
             "p1":"En muchas ocasiones los importadores o exportadores tratan de evitar las cuotas compensatorias impuestas diferenciando ligeramente el producto  que fue objeto de investigación, o importándolo en partes cuando esto es posible. T-REZ representa a los productores nacionales en procedimientos anti-elusión de cuotas para que la Secretaría de Economía extienda las cuotas a dichos productos diferenciados mínimamente o que se importan en partes para evitar pagar las cuotas aplicables."
 
         },
         "cobertura":{
-            "h1":"7. Cobertura de producto",
+            "h1":"Cobertura de producto",
             "p1":"Cuando algún importador o exportador de mercancía sujeta a cuotas compensatorias inicia un procedimiento solicitando a la autoridad antidumping que se excluyan ciertos productos de la aplicación de la misma, T-REZ asesora a los productores nacionales para asegurar que las autoridades correspondientes no excluyan de la aplicación de la cuota compensatoria algún producto que deba de estar considerado de conformidad con el procedimiento y los hechos que dieron lugar a la aplicación de cuotas."
 
         }
@@ -104,7 +105,7 @@
     "disputas": {
         "title":"2. Disputas comerciales",
         "panelesTLC":{
-            "h1":"1. Paneles TLC -TMEC",
+            "h1":"Paneles TLC -TMEC",
             "p1":"T-REZ  ofrece el servicio de representar a las partes en Paneles binacionales T-MEC (antes TLCAN)."  
         },
         "panelesOMC":{
@@ -114,7 +115,7 @@
 
     },
     "litigios": {
-        "title":"3. Litigios Antidumping",
+        "title":"Litigios Antidumping",
         "recursos":{
             "h1":"1. Recursos de revocación",
             "p1":"T-REZ representa a empresas en recursos de revocación ante la Secretaría de Economía contra resoluciones finales emitidas en investigaciones antidumping, exámenes de vigencia o cualquier otro procedimiento de remedios comerciales bajo la Ley de Comercio Exterior."

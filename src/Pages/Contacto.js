@@ -4,13 +4,13 @@ const Contacto = props => {
     return (
         <div className="page">
             <section className="areaTextContainer">
-                <div data={props.data} nombreArea={props.data.areas.practica.area.aduanas.nombre} />
                 <Contenido data={props.data}
-                    parrafo={props.data.areas.practica.area.aduanas.uno}
-                    parrafoDos={props.data.areas.practica.area.aduanas.dos}
-                    parrafoTres={props.data.areas.practica.area.aduanas.tres}
-                    parrafoCuatro={props.data.areas.practica.area.aduanas.cuatro}
-                    parrafoCinco={props.data.areas.practica.area.aduanas.cinco}
+                    parrafo={props.data.contacto.title}
+                    parrafoDos={props.data.contacto.direccion}
+                    parrafoTres={props.data.contacto.oficina}
+                    parrafoCuatro={props.data.contacto.cp}
+                    parrafoCinco={props.data.contacto.numero}
+                    parrafoSeis={props.data.contacto.email}
                 />
             </section>
         </div>
@@ -19,3 +19,4 @@ const Contacto = props => {
 }
 
 export default Contacto;
+

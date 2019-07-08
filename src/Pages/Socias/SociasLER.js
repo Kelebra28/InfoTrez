@@ -1,10 +1,25 @@
 import React from 'react';
 import Contenido from '../../components/Contenido/contenido';
+import MenuIzq from '../../components/MenuIzq/MenuIzq'
+
+
 const SociasLert = props => {
     return (
         <div className="page">
             <section className="areaTextContainer">
-                {/* <div data={props.data} nombreArea={props.dataprops.data.socias.Itziar.title} /> */}
+       
+            <MenuIzq
+                MenuPq1="/Socias/LERT"
+                MenuPq2="/Socias/IEMS"
+                contenidoP1= {props.data.socias.nombres.luz}
+                contenidoP2={props.data.socias.nombres.itzia}
+                display3="none"
+                display4="none"
+                display5="none"
+                display6="none"
+                display7="none"
+                display8="none"
+            />
                 <Contenido data={props.data}
                     parrafo={props.data.socias.Luz.title}
                     parrafoDos={props.data.socias.Luz.p1}

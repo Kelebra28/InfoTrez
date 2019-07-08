@@ -2,42 +2,50 @@ import React from 'react';
 import MenuPq from '../MenuPeque/MenuPeque'
 import './Style.css'
 
-const MenuIzq = () => {
+const MenuIzq = (props) => {
     return(
         
         <section className="seccionIzq">
             <article className="menu">
                 <MenuPq 
-                    linkMenuPq=""
-                    contenidoMenuPq="Antidumping"
+                    display={props.display1}
+                    linkMenuPq={props.MenuPq1}
+                    contenidoMenuPq={props.contenidoP1}
                 />
                 <MenuPq
-                    linkMenuPq="/"
-                    contenidoMenuPq="Anti-Subvenciones"
+                display={props.display2}
+                    linkMenuPq={props.MenuPq2}
+                    contenidoMenuPq={props.contenidoP2}
                 />
                 <MenuPq
-                    linkMenuPq="/"
-                    contenidoMenuPq="Salvaguardias"
+                display={props.display3}
+                    linkMenuPq={props.MenuPq3}
+                    contenidoMenuPq={props.contenidoP3}
                 />
                 <MenuPq
-                    linkMenuPq="/"
-                    contenidoMenuPq="Exámenes de vigencia"
+               display={props.display4}
+                    linkMenuPq={props.MenuPq4}
+                    contenidoMenuPq={props.contenidoP4}
                 />
                 <MenuPq
-                    linkMenuPq="/"
-                    contenidoMenuPq="Revisiones anuales"
+                display={props.display5}
+                    linkMenuPq={props.MenuPq5}
+                    contenidoMenuPq={props.contenidoP5}
                 />
                 <MenuPq
-                    linkMenuPq="/"
-                    contenidoMenuPq="Reviciones anuales"
+               display={props.display6}
+                    linkMenuPq={props.MenuPq6}
+                    contenidoMenuPq={props.contenidoP6}
                 />
                 <MenuPq
-                    linkMenuPq="/"
-                    contenidoMenuPq="Anti-elusión"
+               display={props.display7}
+                    linkMenuPq={props.MenuPq7}
+                    contenidoMenuPq={props.contenidoP7}
                 />
                 <MenuPq
-                    linkMenuPq="/"
-                    contenidoMenuPq="Cobertura de producto"
+                display={props.display8}
+                    linkMenuPq={props.MenuPq8}
+                    contenidoMenuPq={props.contenidoP8}
                 />               
             </article>
         </section>

@@ -11,7 +11,7 @@ const Navbar = () => {
                 <input type="checkbox" name="" id="nav-check"/>
                 <section className="nav-header">
                     <div className="nav-logo">
-                        <a href="/"><img src={Rlogo} alt=""/></a>
+                        <a href="/Nosotros"><img src={Rlogo} alt=""/></a>
                     </div>
                 </section>
                 <div className="nav-btn dots">
@@ -23,8 +23,8 @@ const Navbar = () => {
                         <a href="/Socias">Socias</a>
                         <a href="/Servicios">Servicios</a>
                         <a href="/Industrias">Industrias</a>
-                        <a href="/Presencia">Presencia</a>
-                        <a href="/Recuros">Recursos</a>
+                        {/* <a href="/Presencia">Presencia</a> */}
+                        <a href="/Recursos">Recursos</a>
                         <a href="/Contacto">Contacto</a>
                     </article>
                 </section>
@@ -40,12 +40,12 @@ const Navbar = () => {
                 <hr className="hrNavLinks"/>
                 <section className="containerSec">
                     <article className="linksSecundarios">
-                        <a href="">Remedios Comerciales</a>
-                        <a href="">Disputas Comerciales</a>
-                        <a href="">Litigios Antidumping</a>
-                        <a href="">Economía-Litigios</a>
-                        <a href="">Monitoreos Estratégico</a>
-                        <a href="">Mx-USA Trade Planning</a>
+                        <a href="/Servicios/RemediosC">Remedios Comerciales</a>
+                        <a href="/DisputasComerciales/">Disputas Comerciales</a>
+                        <a href="/LitigiosAntidumping">Litigios Antidumping</a>
+                        <a href="/EconomiaLitigios/">Economía-Litigios</a>
+                        <a href="/MonitoreoEstrategico/">Monitoreos Estratégico</a>
+                        <a href="/Mx-USA-TradePlanning">Mx-USA Trade Planning</a>
                     </article>
                 </section>
             </header>

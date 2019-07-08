@@ -1,19 +1,34 @@
 import React from 'react';
 import Contenido from '../../components/Contenido/contenido';
+import MenuIzq from '../../components/MenuIzq/MenuIzq'
+
 const Cobertura = props => {
     return (
         <div className="page">
-            <section className="areaTextContainer">
-                <div data={props.data} nombreArea={props.data.areas.practica.area.aduanas.nombre} />
-                <Contenido data={props.data}
-                    parrafo={props.data.areas.practica.area.aduanas.uno}
-                    parrafoDos={props.data.areas.practica.area.aduanas.dos}
-                    parrafoTres={props.data.areas.practica.area.aduanas.tres}
-                    parrafoCuatro={props.data.areas.practica.area.aduanas.cuatro}
-                    parrafoCinco={props.data.areas.practica.area.aduanas.cinco}
-                />
-            </section>
-        </div>
+        <MenuIzq
+         MenuPq1="/RemediosComerciales/Anti-Dumping"
+         contenidoP1= {props.data.remedios.antidumping.h1}
+         MenuPq2="/RemediosComerciales/Anti-Subvenciones"
+         contenidoP2={props.data.remedios.subvenciones.h1}
+         MenuPq3="/RemediosComerciales/Salvaguardias"
+         contenidoP3={props.data.remedios.salvaguardias.h1}
+         MenuPq4="/RemediosComerciales/Examenes-Vigilancia"
+         contenidoP4={props.data.remedios.examenes.h1}
+         MenuPq5="/RemediosComerciales/Revisiones-Anuales"
+         contenidoP5={props.data.remedios.reviciones.h1}
+         MenuPq6="/RemediosComerciales/Anti-elusion"
+         contenidoP6={props.data.remedios.elusion.h1}
+         MenuPq7="/RemediosComerciales/Cobertura"
+         contenidoP7={props.data.remedios.cobertura.h1}
+         display8="none"
+         />
+     <section className="areaTextContainer">
+     <Contenido data={props.data}
+         parrafo={props.data.remedios.cobertura.h1}
+         parrafoDos={props.data.remedios.cobertura.p1}
+         />
+     </section>
+ </div>
     );
 
 }

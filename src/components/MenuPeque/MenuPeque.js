@@ -5,29 +5,14 @@ import './Style.css'
 
 class MenuPq extends React.Component {
 
-    constructor(props){
-        super(props);
-        this.state = {
-            Style = {backgroundColor: "#000"}
-        }
-    this.chageColor = this.chageColor.bind(this);
-    }
 
-    chageColor(backgroundColor) {
-        this.setState({
-            backgroundColor
-        });
-    }
-    onMouseEnter() {
-        this.setState((console.log('funciona')))
-    }
-    
 
         
     render(){
         return(
             <a  
-                className="contenedorPq item1" 
+                className="contenedorPq item1 displaypq" 
+                style={{"display": this.props.display }}
                 href={this.props.linkMenuPq}
                 onMouseEnter={ () => this.chageColor() } 
                 onMouseEnter={ () => this.onMouseEnter() }>{this.props.contenidoMenuPq}</a>

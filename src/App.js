@@ -4,7 +4,7 @@ import './App.css';
 import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
 // import MenuPrin from './components/MenuPrin/MenuPrin'
-// import Servicios from './components/Pages/Servicios'
+// import ServicioS from './components/Pages/Servicios'
 // import ImgOs from './components/ImgOs/ImgOs'
 // import Faceb from './components/Faceb/Faceb'
 
@@ -24,7 +24,8 @@ import DisputasC from './Pages/Servicios/DisputasC';
 import LitigiosA from './Pages/Servicios/LitigiosA';
 import EconomiaS from './Pages/Servicios/Economia';
 import Monitoreos from './Pages/Servicios/Monitoreos';
-import MxUSA from './Pages/Servicios/MXUSA';
+import MxUSA from './Pages/Servicios/MxUSA';
+import RemediosCo from './Pages/Servicios/Remedios'
 //Remedios Comerciales 
 import RemediosComerciales from './Pages/Remedios comerciales/RemediosComer';
 import AntiDumpig from './Pages/Remedios comerciales/AntiDumping';
@@ -140,6 +141,7 @@ class App extends Component {
               <Route exact path="/Profecionales/IEMS" component={() => <ProfeIEMS data={this.state.data} />}/>
               {/* Servicios */}
               <Route exact path="/Servicios/" component={() => <Servicios data={this.state.data} />}/>
+              <Route exact path="/Servicios/RemediosC" component={() => <RemediosCo data={this.state.data} />}/>
               <Route exact path="/Servicios/DisputasC" component={() => <DisputasC data={this.state.data} />}/>
               <Route exact path="/Servicios/LitiguiosA" component={() => <LitigiosA data={this.state.data} />}/>
               <Route exact path="/Servicios/Economia" component={() => <EconomiaS data={this.state.data} />}/>
@@ -157,7 +159,7 @@ class App extends Component {
               {/* Disputas Comerciales */}
               <Route exact path="/DisputasComerciales/" component={() => <DisputasComerciales data={this.state.data} />}/>
               <Route exact path="/DisputasComerciales/Planes-TLC" component={() => <PlanesOMC data={this.state.data} />}/>
-              <Route exact path="/DisputasComerciales/Planes-OMC" component={() => <PlanesTLC data={this.state.data} />}/>
+              <Route exact path="/DisputasComerciales/Planes-TLC" component={() => <PlanesTLC data={this.state.data} />}/>
               {/* Litigios Antidumping */}
               <Route exact path="/LitigiosAntidumping/" component={() => <LitigiosAnti data={this.state.data} />}/>
               <Route exact path="/LitigiosAntidumping/Recursos-Revocacion" component={() => <RecursosReno data={this.state.data} />}/>

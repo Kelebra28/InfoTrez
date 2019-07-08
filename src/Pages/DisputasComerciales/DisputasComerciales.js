@@ -1,19 +1,21 @@
 import React from 'react';
 import Contenido from '../../components/Contenido/contenido';
+import MenuIzq from '../../components/MenuIzq/MenuIzq'
+
 const DisputasComerciales = props => {
     return (
-        <div className="page">
-            <section className="areaTextContainer">
-                <div data={props.data} nombreArea={props.data.areas.practica.area.aduanas.nombre} />
-                <Contenido data={props.data}
-                    parrafo={props.data.areas.practica.area.aduanas.uno}
-                    parrafoDos={props.data.areas.practica.area.aduanas.dos}
-                    parrafoTres={props.data.areas.practica.area.aduanas.tres}
-                    parrafoCuatro={props.data.areas.practica.area.aduanas.cuatro}
-                    parrafoCinco={props.data.areas.practica.area.aduanas.cinco}
-                />
-            </section>
-        </div>
+        <MenuIzq
+            MenuPq1="/DisputasComerciales/Planes-TLC"
+            contenidoP1= {props.data.disputas.panelesTLC.h1}
+            MenuPq2="/DisputasComerciales/Planes-OMC"
+            contenidoP2={props.data.disputas.panelesOMC.h1}
+            display3="none"
+            display4="none"
+            display5="none"
+            display6="none"
+            display7="none"
+            display8="none"
+         />
     );
 
 }

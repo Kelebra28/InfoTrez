@@ -3,7 +3,8 @@ import Contenido from '../../components/Contenido/contenido';
 import MenuIzq from '../../components/MenuIzq/MenuIzq'
 
 
-const AntiDumpig = props => {
+
+const RemediosCo = props => {
     return (
         <div className="page">
                <MenuIzq
@@ -23,17 +24,12 @@ const AntiDumpig = props => {
                 contenidoP7={props.data.remedios.cobertura.h1}
                 display8="none"
                 />
-            <section className="areaTextContainer">
-            <Contenido data={props.data}
-                parrafo={props.data.remedios.antidumping.h1}
-                parrafoDos={props.data.remedios.antidumping.p1}
-                parrafoTres={props.data.remedios.antidumping.p2}
-                parrafoCuatro={props.data.remedios.antidumping.p3}
-                />
-            </section>
-        </div>
+            
+        <section className="areaTextContainer">
+        </section>
+    </div>
     );
 
 }
 
-export default AntiDumpig;
+export default RemediosCo;
