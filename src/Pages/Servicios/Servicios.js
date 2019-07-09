@@ -1,5 +1,4 @@
 import React from 'react';
-import Contenido from '../../components/Contenido/contenido';
 import MenuIzq from '../../components/MenuIzq/MenuIzq'
 
 const Servicios = props => {
@@ -12,11 +11,11 @@ const Servicios = props => {
                 contenidoP2={props.data.servicos.p2}
                 MenuPq3="/LitigiosAntidumping"
                 contenidoP3={props.data.servicos.p3}
-                MenuPq4="/Servicios/Economia"
+                MenuPq4="/EconomiaLitigios"
                 contenidoP4={props.data.servicos.p4}
-                MenuPq5="/Servicios/Monitoreos"
+                MenuPq5="MonitoreoEstrategico/"
                 contenidoP5={props.data.servicos.p5}
-                MenuPq6="/Servicios/MX-USA"
+                MenuPq6="/Mx-USA-TradePlanning/"
                 contenidoP6={props.data.servicos.p6}
                 display7="none"
                 display8="none"

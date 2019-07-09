@@ -135,7 +135,7 @@
 
     },
     "economia": {
-        "title":"4. Economía-Litigios",
+        "title":"Economía-Litigios",
         "menu":{
             "p1":"1. Análisis de importaciones",
             "p2":"2. Márgenes de dumping",
@@ -166,6 +166,7 @@
 
     },
     "monitoreos": {
+        "title":"Monitoreos Estrategicos",
         "menu":{
             "p1":"1. Monitoreo de precios",
             "p2":"2. Alertas Dumping"
@@ -181,6 +182,7 @@
         }
     },
     "tradepla": {
+        "title":"MX-USA Trade Planning",
         "menu":{
             "p1":"1. Riesgo antidumping en USA",
             "p2":"2. Cuestionarios DOC y ITC",

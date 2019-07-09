@@ -1,19 +1,30 @@
 import React from 'react';
 import Contenido from '../../components/Contenido/contenido';
+import MenuIzq from '../../components/MenuIzq/MenuIzq'
+
 const Precios = props => {
     return (
         <div className="page">
-            <section className="areaTextContainer">
-                <div data={props.data} nombreArea={props.data.areas.practica.area.aduanas.nombre} />
-                <Contenido data={props.data}
-                    parrafo={props.data.areas.practica.area.aduanas.uno}
-                    parrafoDos={props.data.areas.practica.area.aduanas.dos}
-                    parrafoTres={props.data.areas.practica.area.aduanas.tres}
-                    parrafoCuatro={props.data.areas.practica.area.aduanas.cuatro}
-                    parrafoCinco={props.data.areas.practica.area.aduanas.cinco}
-                />
-            </section>
-        </div>
+        <MenuIzq
+         MenuPq1="/MonitoreoEstrategico/Monitoreo-Precios"
+         contenidoP1= {props.data.monitoreos.menu.p1}
+         MenuPq2="/MonitoreoEstrategico/Alertas-Dumping"
+         contenidoP2={props.data.monitoreos.menu.p2}
+         display3="none"
+         display4="none"
+         display5="none"
+         display6="none"
+         display7="none"
+         display8="none"
+         />
+      <section className="areaTextContainer">
+         <Contenido data={props.data}
+             parrafo={props.data.monitoreos.monitoreo.h1}
+             parrafoDos={props.data.monitoreos.monitoreo.p1}
+             parrafoTres={props.data.monitoreos.monitoreo.p2}
+             />
+         </section>
+     </div>
     );
 
 }

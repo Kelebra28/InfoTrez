@@ -1,20 +1,31 @@
 import React from 'react';
 import Contenido from '../../components/Contenido/contenido';
+import MenuIzq from '../../components/MenuIzq/MenuIzq'
+
 const MXUSA = props => {
     return (
         <div className="page">
-            <section className="areaTextContainer">
-                <div data={props.data} nombreArea={props.data.areas.practica.area.aduanas.nombre} />
-                <Contenido data={props.data}
-                    parrafo={props.data.areas.practica.area.aduanas.uno}
-                    parrafoDos={props.data.areas.practica.area.aduanas.dos}
-                    parrafoTres={props.data.areas.practica.area.aduanas.tres}
-                    parrafoCuatro={props.data.areas.practica.area.aduanas.cuatro}
-                    parrafoCinco={props.data.areas.practica.area.aduanas.cinco}
-                />
-            </section>
-        </div>
+        <MenuIzq
+         MenuPq1="/Mx-USA-TradePlanning/Riesgo-Antidumpig"
+         contenidoP1= {props.data.tradepla.menu.p1}
+         MenuPq2="/Mx-USA-TradePlanning/Cuestionarios"
+         contenidoP2={props.data.tradepla.menu.p2}
+         MenuPq3="/Mx-USA-TradePlanning/Verificaciones"
+         contenidoP3={props.data.tradepla.menu.p3}
+         display4="none"
+         display5="none"
+         display6="none"
+         display7="none"
+         display8="none"
+         />
+      <section className="areaTextContainer">
+         <Contenido data={props.data}
+             parrafo={props.data.tradepla.title}
+             />
+         </section>
+     </div>
     );
+
 
 }
 
