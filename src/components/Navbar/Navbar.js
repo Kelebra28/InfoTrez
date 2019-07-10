@@ -11,7 +11,7 @@ const Navbar = () => {
                 <input type="checkbox" name="" id="nav-check"/>
                 <section className="nav-header">
                     <div className="nav-logo">
-                        <a href="/Nosotros"><img src={Rlogo} alt=""/></a>
+                        <a href="/"><img src={Rlogo} alt=""/></a>
                     </div>
                 </section>
                 <div className="nav-btn dots">

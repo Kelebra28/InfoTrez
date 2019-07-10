@@ -1,10 +1,9 @@
 import React from 'react';
 import Contenido from '../components/Contenido/contenido';
-import MenuPrin from '../components/MenuPrin/MenuPrin'
+
 const Nosotros = props => {
     return (
         <div className="page">
-            <MenuPrin/>
         <section className="areaTextContainer">
             {/* <div data={props.data} nombreArea={props.data.socias.Luz.title} /> */}
             <Contenido data={props.data}

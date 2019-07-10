@@ -8,6 +8,9 @@ import Footer from './components/Footer/Footer'
 // import ImgOs from './components/ImgOs/ImgOs'
 // import Faceb from './components/Faceb/Faceb'
 
+
+//Home
+import Home from  './Pages/Home'
 //Nosotros 
 import Nosotros from './Pages/Nosotros'
 //socias
@@ -130,6 +133,8 @@ class App extends Component {
               <Route exact path="/servicios" component={Servicios} />
               <Route exact path="/nosotros" component={ImgOs}/>
               <Route exact path="/facebook" component={Faceb}/> */}
+              {/* Home */}
+              <Route exact path= "/" component={() => <Home ata={this.state.data}/>}/>
               <Route exact path="/Nosotros/" component={() => <Nosotros data={this.state.data} />}/>
               {/* Socias */}
               <Route exact path="/Socias/" component={() => <Socias data={this.state.data} />}/>
