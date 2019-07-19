@@ -3,7 +3,7 @@ import Contenido from '../../components/Contenido/contenido';
 import MenuIzq from '../../components/MenuIzq/MenuIzq'
 import ContenedorCen from '../../components/ContenedorCen/ContenedorCen'
 import HeaderTitle from '../../components/Header/Header'
-
+import './Industrias.css'
 
 const Industrias = props => {
     return (
@@ -22,9 +22,12 @@ const Industrias = props => {
                 display8="none"
             />
             <section className="seccionCentro">
-                <HeaderTitle data={props.data}
-                    title={props.data.industrias.title}
-                />
+                <div className="contenidoCentro">
+
+                    <HeaderTitle data={props.data}
+                        title={props.data.industrias.title}
+                    />
+                </div>
             </section>
         </div>
     );

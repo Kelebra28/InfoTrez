@@ -9,9 +9,9 @@ import MenuIzq from '../../components/MenuIzq/MenuIzq'
 const AntiDumpig = props => {
     return (
         <div className="page">
-               <MenuIzq
+            <MenuIzq
                 MenuPq1="/RemediosComerciales/Anti-Dumping"
-                contenidoP1= {props.data.remedios.antidumping.h1}
+                contenidoP1={props.data.remedios.antidumping.h1}
                 MenuPq2="/RemediosComerciales/Anti-Subvenciones"
                 contenidoP2={props.data.remedios.subvenciones.h1}
                 MenuPq3="/RemediosComerciales/Salvaguardias"
@@ -25,17 +25,20 @@ const AntiDumpig = props => {
                 MenuPq7="/RemediosComerciales/Cobertura"
                 contenidoP7={props.data.remedios.cobertura.h1}
                 display8="none"
-                />
+            />
             <section className="seccionCentro">
-            <HeaderTitle data={props.data}
-                title={props.data.remedios.antidumping.h1}
-                />
-            <Contenido data={props.data}
-                // parrafo={props.data.remedios.antidumping.h1}
-                parrafoDos={props.data.remedios.antidumping.p1}
-                parrafoTres={props.data.remedios.antidumping.p2}
-                parrafoCuatro={props.data.remedios.antidumping.p3}
-                />
+                <div className="contenidoCentro">
+
+                    <HeaderTitle data={props.data}
+                        title={props.data.remedios.antidumping.h1}
+                    />
+                    <Contenido data={props.data}
+                        // parrafo={props.data.remedios.antidumping.h1}
+                        parrafoDos={props.data.remedios.antidumping.p1}
+                        parrafoTres={props.data.remedios.antidumping.p2}
+                        parrafoCuatro={props.data.remedios.antidumping.p3}
+                    />
+                </div>
             </section>
         </div>
     );

@@ -20,14 +20,17 @@ const Verificaciones = props => {
                 display8="none"
             />
             <section className="seccionCentro">
-                <HeaderTitle data={props.data}
-                    title={props.data.nosotros.title}
-                />
-                <Contenido data={props.data.industrias.agropecuario.h1}
-                    // parrafo={props.data.industrias.agropecuario.h1}
-                    parrafoDos={props.data.industrias.agropecuario.p1}
-                    parrafoTres={props.data.industrias.agropecuario.p2}
-                />
+                <div className="contenidoCentro">
+
+                    <HeaderTitle data={props.data}
+                        title={props.data.nosotros.title}
+                    />
+                    <Contenido data={props.data.industrias.agropecuario.h1}
+                        // parrafo={props.data.industrias.agropecuario.h1}
+                        parrafoDos={props.data.industrias.agropecuario.p1}
+                        parrafoTres={props.data.industrias.agropecuario.p2}
+                    />
+                </div>
             </section>
         </div>
     );

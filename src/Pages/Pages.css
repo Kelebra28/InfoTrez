@@ -2,12 +2,12 @@
     width: 100%;
     display: flex;
     justify-content: center;
-    border: solid 1px red;
+    /* border: solid 1px red; */
 }
 
 /* --------------------------Contacto------------------------- */
 .seccionUp{
-    border: solid 1px red;
+    /* border: solid 1px red; */
     height: 10vh;
     width: 100%;
     display: flex;
@@ -21,7 +21,7 @@
 }
 .seccionDown{ 
     margin-top: 2em;
-    border: solid 1px blue;
+    /* border: solid 1px blue; */
     width: 100vw;
 }
 

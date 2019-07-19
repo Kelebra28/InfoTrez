@@ -4,6 +4,7 @@ import MenuIzq from '../../components/MenuIzq/MenuIzq'
 import HeaderTitle from '../../components/Header/Header'
 
 const Peritajes = props => {
+
     return (
         <div className="page">
             <MenuIzq
@@ -20,14 +21,15 @@ const Peritajes = props => {
                 display7="none"
                 display8="none"
             />
-            <section className="areaTextContainer">
-                <HeaderTitle data={props.data}
-                    title={props.data.litigios.peritajes.h1}
-                />
-                <Contenido data={props.data}
-                    //  parrafo={props.data.litigios.peritajes.h1}
-                    parrafoDos={props.data.litigios.peritajes.p1}
-                />
+            <section className="seccionCentro">
+                <div className="contenidoCentro">
+                    <HeaderTitle data={props.data}
+                        title={props.data.litigios.peritajes.h1}
+                    />
+                    <Contenido data={props.data}
+                        parrafoDos={props.data.litigios.peritajes.p1}
+                    />
+                </div>
             </section>
         </div>
     );

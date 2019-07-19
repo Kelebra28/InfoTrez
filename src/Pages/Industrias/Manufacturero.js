@@ -21,13 +21,16 @@ const Manufacturero = props => {
                 display8="none"
             />
             <section className="seccionCentro">
-                <HeaderTitle data={props.data}
-                    title={props.data.industrias.manufacturero.h1}
-                />
-                <Contenido data={props.data}
-                    // parrafo={props.data.industrias.manufacturero.h1}
-                    parrafoDos={props.data.industrias.manufacturero.p1}
-                />
+                <div className="contenidoCentro">
+
+                    <HeaderTitle data={props.data}
+                        title={props.data.industrias.manufacturero.h1}
+                    />
+                    <Contenido data={props.data}
+                        // parrafo={props.data.industrias.manufacturero.h1}
+                        parrafoDos={props.data.industrias.manufacturero.p1}
+                    />
+                </div>
             </section>
         </div>
     );
