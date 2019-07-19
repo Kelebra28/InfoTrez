@@ -163,7 +163,7 @@ class App extends Component {
               <Route exact path="/RemediosComerciales/Cobertura" component={() => <Cobertura data={this.state.data} />}/>
               {/* Disputas Comerciales */}
               <Route exact path="/DisputasComerciales/" component={() => <DisputasComerciales data={this.state.data} />}/>
-              <Route exact path="/DisputasComerciales/Planes-TLC" component={() => <PlanesOMC data={this.state.data} />}/>
+              <Route exact path="/DisputasComerciales/Planes-OMC" component={() => <PlanesOMC data={this.state.data} />}/>
               <Route exact path="/DisputasComerciales/Planes-TLC" component={() => <PlanesTLC data={this.state.data} />}/>
               {/* Litigios Antidumping */}
               <Route exact path="/LitigiosAntidumping/" component={() => <LitigiosAnti data={this.state.data} />}/>

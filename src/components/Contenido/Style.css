@@ -1,0 +1,14 @@
+.seccionCentro {
+    /* border: solid 1px blue; */
+    width: 80%;
+    padding: 2em;
+}.seccionCentro{
+    animation: dtu 1s forwards 0s ease-in-out;
+}
+
+
+/*.seccionCentro {
+     border: solid 1px blue; 
+    width: 100%;
+    padding: 2em;
+}*/

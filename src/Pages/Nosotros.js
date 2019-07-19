@@ -1,13 +1,18 @@
 import React from 'react';
+import HeaderTitle from '../components/Header/Header'
 import Contenido from '../components/Contenido/contenido';
+import ContenedorCen from '../components/ContenedorCen/ContenedorCen'
+
 
 const Nosotros = props => {
     return (
         <div className="page">
-        <section className="areaTextContainer">
-            {/* <div data={props.data} nombreArea={props.data.socias.Luz.title} /> */}
+        <section className="seccionCentro">
+            <HeaderTitle data={props.data}
+                title={props.data.nosotros.title}
+            />
             <Contenido data={props.data}
-                parrafo={props.data.nosotros.title}
+                // parrafo={props.data.nosotros.title}
                 parrafoDos={props.data.nosotros.consultig.title}
                 parrafoTres={props.data.nosotros.consultig.p}
                 parrafoCuatro={props.data.nosotros.trez1.title}

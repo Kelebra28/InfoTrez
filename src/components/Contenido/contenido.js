@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Style.css'
 const Contenido = props => {
     return (
         <div className="contenido">

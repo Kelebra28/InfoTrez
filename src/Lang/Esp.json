@@ -1,6 +1,6 @@
 {
     "nosotros": {
-        "title":"I. Nosotros",
+        "title":"Nosotros",
         "consultig":{
             "title":"T-REZ Consulting",
             "p":"nace en 2018 como un nuevo despacho pero con una larga trayectoria por la experiencia de sus profesionales de  más  de  25  años  en  remedios  comerciales  y  solución  de controversias comerciales internacionales."
@@ -15,6 +15,7 @@
         }
     },
     "socias": {
+        "titleS":"Socias",
         "nombres":{
             "luz":"Luz Elena Reyes de la Torre",
             "itzia":"Itziar Esparza Mejía"
@@ -53,7 +54,7 @@
         "p8":"• En abril de 2016 fue nombrada Miembro del Grupo Permanente de Expertos de la OMC en materia de Subvenciones y Derechos Compensatorios por el periodo 2016-2021."
     },
     "servicos": {
-        "title":"III. Servicios",
+        "title":"Servicios",
         "p1":"1. Remedios Comerciales",
         "p2":"2. Disputas Comerciales",
         "p3":"3. Litigios Antidumping",
@@ -62,7 +63,7 @@
         "p6":"6. Mx-USA Trade Planning"
     },
     "remedios": {
-        "title":"I. Remedios Comerciales",
+        "title":"Remedios Comerciales",
         "antidumping":{
             "h1":"Antidumping",
             "p1":"T-REZ se ha especializado en investigaciones promovidas por la industria nacional para defender una competencia leal y asegurar una cancha pareja.",
@@ -103,7 +104,7 @@
         }
     },
     "disputas": {
-        "title":"2. Disputas comerciales",
+        "title":"Disputas comerciales",
         "panelesTLC":{
             "h1":"Paneles TLC -TMEC",
             "p1":"T-REZ  ofrece el servicio de representar a las partes en Paneles binacionales T-MEC (antes TLCAN)."  
@@ -204,7 +205,7 @@
 
     },
     "industrias":{
-        "title":"IV. Industrias",
+        "title":"Industrias",
         "menu":{
             "p1":"1. Agropecuario",
             "p2":"2. Manufacturero",
@@ -245,7 +246,7 @@
         }
     },
     "recursos":{
-        "title":"VI. Recursos",
+        "title":"Recursos",
         "menu":{
             "p1":"1. Legislación OMC",
             "p2":"2. Antidumping en México",
@@ -285,7 +286,7 @@
     },
     "contacto":{
     "title": "VII. Contacto",
-    "direccion":"Torre Siglum Insurgentes Sur #1898",
+    "direccion":"Torre Siglum Insurgentes Sur #1898,Piso 14 Despacho 1421 Col. Florida, 01020 CDMX, México.",
     "oficina":"Piso 14 Despacho 1421 Col. Florida",
     "cp":"01020 CDMX, México.",
     "numero":"(55)9171-1047/52",

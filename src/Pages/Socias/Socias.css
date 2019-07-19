@@ -1,0 +1,26 @@
+.seccionCentro{
+    /* border: solid 1px blue; */
+    width: 80%;
+    padding: 2em;
+}
+
+.seccionCentro{
+    animation: dtu 1s forwards 0s ease-in-out;
+}
+
+.imgSocia{
+    border: solid 1px blue;
+    width: 20vw;
+}
+
+.contenidoCentro{
+    border: solid 1px blue;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    width: 70vw;
+    height: 120vh;
+
+}

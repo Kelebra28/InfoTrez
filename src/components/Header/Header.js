@@ -1,12 +1,12 @@
-// import React from 'react';
+import React from 'react'
+import './HeaderStyle.css' 
 
-// const HeaderAreas = props => {
-//     return (
-//         <div className="headerAreas">
-//             <h1>{props.data.socias.practica.nombreCompleto}</h1>
-//             <h2 className="subtitle">{props.nombreArea}</h2>
-//         </div>
-//     )
-// }
+const HeaderTitle = props => {
+    return (
+        <div className="title">
+            <h2>{props.title}</h2>
+        </div>
+    )
+}
 
-// export default HeaderAreas;
+export default HeaderTitle;

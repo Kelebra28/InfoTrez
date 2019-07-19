@@ -1,15 +1,15 @@
 import React from 'react';
-import Contenido from '../../components/Contenido/contenido';
+import HeaderTitle from '../../components/Header/Header'
 import MenuIzq from '../../components/MenuIzq/MenuIzq'
-
-
+import ContenedorCen from '../../components/ContenedorCen/ContenedorCen'
+import '../Pages.css'
 
 const RemediosCo = props => {
     return (
         <div className="page">
-               <MenuIzq
+            <MenuIzq
                 MenuPq1="/RemediosComerciales/Anti-Dumping"
-                contenidoP1= {props.data.remedios.antidumping.h1}
+                contenidoP1={props.data.remedios.antidumping.h1}
                 MenuPq2="/RemediosComerciales/Anti-Subvenciones"
                 contenidoP2={props.data.remedios.subvenciones.h1}
                 MenuPq3="/RemediosComerciales/Salvaguardias"
@@ -23,11 +23,14 @@ const RemediosCo = props => {
                 MenuPq7="/RemediosComerciales/Cobertura"
                 contenidoP7={props.data.remedios.cobertura.h1}
                 display8="none"
+            />
+
+            <section className="seccionCentro">
+                <HeaderTitle data={props.data}
+                    title={props.data.remedios.title}
                 />
-            
-        <section className="areaTextContainer">
-        </section>
-    </div>
+            </section>
+        </div>
     );
 
 }

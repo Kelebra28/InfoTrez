@@ -1,6 +1,7 @@
 import React from 'react';
 import Contenido from '../../components/Contenido/contenido';
 import MenuIzq from '../../components/MenuIzq/MenuIzq'
+import HeaderTitle from '../../components/Header/Header'
 
 const DanoIn = props => {
     return (
@@ -20,9 +21,12 @@ const DanoIn = props => {
          display7="none"
          display8="none"
          />
-      <section className="areaTextContainer">
+      <section className="seccionCentro">
+      <HeaderTitle data={props.data}
+                title={props.data.economia.dano.h1}
+            />
          <Contenido data={props.data}
-             parrafo={props.data.economia.dano.h1}
+            //  parrafo={props.data.economia.dano.h1}
              parrafoDos={props.data.economia.dano.p1}
              />
          </section>

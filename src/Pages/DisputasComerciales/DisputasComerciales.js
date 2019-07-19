@@ -1,6 +1,7 @@
 import React from 'react';
 import Contenido from '../../components/Contenido/contenido';
 import MenuIzq from '../../components/MenuIzq/MenuIzq'
+import ContenedorCen from '../../components/ContenedorCen/ContenedorCen'
 
 const DisputasComerciales = props => {
     return (

@@ -1,6 +1,8 @@
 import React from 'react';
 import Contenido from '../../components/Contenido/contenido';
 import MenuIzq from '../../components/MenuIzq/MenuIzq'
+import HeaderTitle from '../../components/Header/Header'
+import ContenedorCen from '../../components/ContenedorCen/ContenedorCen'
 
 const MXUSA = props => {
     return (
@@ -18,9 +20,12 @@ const MXUSA = props => {
          display7="none"
          display8="none"
          />
-      <section className="areaTextContainer">
+      <section className="seccionCentro">
+      <HeaderTitle data={props.data}
+                title={props.data.tradepla.title}
+            />
          <Contenido data={props.data}
-             parrafo={props.data.tradepla.title}
+            //  parrafo={props.data.tradepla.title}
              />
          </section>
      </div>

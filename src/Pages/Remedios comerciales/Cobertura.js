@@ -1,6 +1,8 @@
 import React from 'react';
 import Contenido from '../../components/Contenido/contenido';
 import MenuIzq from '../../components/MenuIzq/MenuIzq'
+import HeaderTitle from '../../components/Header/Header'
+
 
 const Cobertura = props => {
     return (
@@ -22,9 +24,12 @@ const Cobertura = props => {
          contenidoP7={props.data.remedios.cobertura.h1}
          display8="none"
          />
-     <section className="areaTextContainer">
+     <section className="seccionCentro">
+     <HeaderTitle data={props.data}
+                title={props.data.remedios.cobertura.h1}
+            />
      <Contenido data={props.data}
-         parrafo={props.data.remedios.cobertura.h1}
+        //  parrafo={props.data.remedios.cobertura.h1}
          parrafoDos={props.data.remedios.cobertura.p1}
          />
      </section>

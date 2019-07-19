@@ -1,5 +1,6 @@
 import React from 'react';
 import Contenido from '../../components/Contenido/contenido';
+import HeaderTitle from '../../components/Header/Header'
 import MenuIzq from '../../components/MenuIzq/MenuIzq'
 
 
@@ -23,9 +24,12 @@ const AntiSubveciones = props => {
          contenidoP7={props.data.remedios.cobertura.h1}
          display8="none"
          />
-     <section className="areaTextContainer">
+     <section className="seccionCentro">
+     <HeaderTitle data={props.data}
+                title={props.data.remedios.subvenciones.h1}
+                />
      <Contenido data={props.data}
-         parrafo={props.data.remedios.subvenciones.h1}
+        //  parrafo={props.data.remedios.subvenciones.h1}
          parrafoDos={props.data.remedios.subvenciones.p1}
          parrafoTres={props.data.remedios.subvenciones.p2}
          />

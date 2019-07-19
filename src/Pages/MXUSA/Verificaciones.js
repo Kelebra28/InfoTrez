@@ -1,6 +1,7 @@
 import React from 'react';
 import Contenido from '../../components/Contenido/contenido';
 import MenuIzq from '../../components/MenuIzq/MenuIzq'
+import HeaderTitle from '../../components/Header/Header'
 
 const Verificaciones = props => {
     return (
@@ -18,9 +19,12 @@ const Verificaciones = props => {
          display7="none"
          display8="none"
          />
-      <section className="areaTextContainer">
+      <section className="seccionCentro">
+      <HeaderTitle data={props.data}
+                title={props.data.tradepla.verificaciones.h1}
+            />
          <Contenido data={props.data}
-             parrafo={props.data.tradepla.verificaciones.h1}
+            //  parrafo={props.data.tradepla.verificaciones.h1}
              parrafoDos={props.data.tradepla.verificaciones.p1}
              />
          </section>
@@ -31,3 +35,4 @@ const Verificaciones = props => {
 }
 
 export default Verificaciones;
+

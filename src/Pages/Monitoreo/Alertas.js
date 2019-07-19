@@ -1,6 +1,7 @@
 import React from 'react';
 import Contenido from '../../components/Contenido/contenido';
 import MenuIzq from '../../components/MenuIzq/MenuIzq'
+import HeaderTitle from '../../components/Header/Header'
 
 const Alertas = props => {
     return (
@@ -17,9 +18,12 @@ const Alertas = props => {
          display7="none"
          display8="none"
          />
-      <section className="areaTextContainer">
+      <section className="seccionCentro">
+      <HeaderTitle data={props.data}
+                title={props.data.monitoreos.alertas.h1}
+            />
          <Contenido data={props.data}
-             parrafo={props.data.monitoreos.alertas.h1}
+            //  parrafo={props.data.monitoreos.alertas.h1}
              parrafoDos={props.data.monitoreos.alertas.p1}
              />
          </section>

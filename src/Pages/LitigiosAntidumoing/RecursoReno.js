@@ -1,6 +1,7 @@
 import React from 'react';
 import Contenido from '../../components/Contenido/contenido';
 import MenuIzq from '../../components/MenuIzq/MenuIzq'
+import HeaderTitle from '../../components/Header/Header'
 
 const RecursosReno = props => {
     return (
@@ -20,8 +21,11 @@ const RecursosReno = props => {
          display8="none"
          />
       <section className="areaTextContainer">
+      <HeaderTitle data={props.data}
+                title={props.data.litigios.recursos.h1}
+            />
          <Contenido data={props.data}
-             parrafo={props.data.litigios.recursos.h1}
+            //  parrafo={props.data.litigios.recursos.h1}
              parrafoDos={props.data.litigios.recursos.p1}
              />
          </section>

@@ -1,12 +1,14 @@
 import React from 'react';
 import MenuIzq from '../../components/MenuIzq/MenuIzq'
+import HeaderTitle from '../../components/Header/Header'
+import '../Pages.css'
 
 const Servicios = props => {
     return (
         <div className="page">
-               <MenuIzq
+            <MenuIzq
                 MenuPq1="/Servicios/RemediosC"
-                contenidoP1= {props.data.servicos.p1}
+                contenidoP1={props.data.servicos.p1}
                 MenuPq2="/DisputasComerciales/"
                 contenidoP2={props.data.servicos.p2}
                 MenuPq3="/LitigiosAntidumping"
@@ -20,10 +22,12 @@ const Servicios = props => {
                 display7="none"
                 display8="none"
             />
-        <section className="areaTextContainer">
-           
-        </section>
-    </div>
+            <section className="seccionCentro">
+                <HeaderTitle data={props.data}
+                    title={props.data.servicos.title}
+                />
+            </section>
+        </div>
     );
 
 }

@@ -1,5 +1,7 @@
 import React from 'react';
 import Contenido from '../../components/Contenido/contenido';
+import '../Pages.css'
+
 const DisputasC = props => {
     return (
         <div className="page">

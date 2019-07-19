@@ -1,6 +1,8 @@
 import React from 'react';
 import Contenido from '../../components/Contenido/contenido';
 import MenuIzq from '../../components/MenuIzq/MenuIzq';
+import HeaderTitle from '../../components/Header/Header'
+
 const RemediosComerciales = props => {
     return (
         <div className="page">
@@ -16,6 +18,11 @@ const RemediosComerciales = props => {
                     contenidoP8={props.data.remedios.cobertura.h1}
 
                 />
+               <section className="seccionCentro">
+         <HeaderTitle data={props.data}
+                title={props.data.remedios.title}
+            />
+            </section>
             {/* <Contenido data={props.data}
                     parrafo={props.data.remedios.title}
                     parrafoDos={props.data.remedios.antidumping.h1}
@@ -25,7 +32,7 @@ const RemediosComerciales = props => {
                     parrafoSeis={props.data.remedios.reviciones.h1}
                     parrafoSiete={props.data.remedios.elusion.h1}
                     parrafoOcho={props.data.remedios.cobertura.h1}
-                /> */}
+                />  */}
             </section>
         </div>
     );

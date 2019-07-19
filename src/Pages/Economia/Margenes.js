@@ -1,6 +1,7 @@
 import React from 'react';
 import Contenido from '../../components/Contenido/contenido';
 import MenuIzq from '../../components/MenuIzq/MenuIzq'
+import HeaderTitle from '../../components/Header/Header'
 
 const Margenes = props => {
     return (
@@ -20,7 +21,10 @@ const Margenes = props => {
          display7="none"
          display8="none"
          />
-      <section className="areaTextContainer">
+      <section className="seccionCentro">
+      <HeaderTitle data={props.data}
+                title={props.data.economia.margenes.h1}
+            />
          <Contenido data={props.data}
              parrafo={props.data.economia.margenes.h1}
              parrafoDos={props.data.economia.margenes.p1}
