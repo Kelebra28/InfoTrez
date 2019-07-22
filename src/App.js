@@ -1,82 +1,82 @@
 import React, { Component } from 'react';
 import {BrowserRouter as Router,Route} from 'react-router-dom'
 import './App.css';
-import Navbar from '../components/Navbar/Navbar'
-import Footer from '../components/Footer/Footer'
+import Navbar from './components/Navbar/Navbar'
+import Footer from './components/Footer/Footer'
 //Home
-import Home from  './Home'
+import Home from  './Pages/Home'
 //Nosotros 
-import Nosotros from './Nosotros'
+import Nosotros from './Pages/Nosotros'
 //socias
-import Socias from './Socias/Socias';
-import SociasLert from './Socias/SociasLER';
-import SociasIEMS from './Socias/SociasIEMS';
+import Socias from './Pages/Socias/Socias';
+import SociasLert from './Pages/Socias/SociasLER';
+import SociasIEMS from './Pages/Socias/SociasIEMS';
 //Profecionales
-import Profecionales from './Profecionales/ProfeIEMS';
-import ProfeLERT from './Profecionales/ProfeLERT';
-import ProfeIEMS from './Profecionales/ProfeIEMS'; 
+import Profecionales from './Pages/Profecionales/ProfeIEMS';
+import ProfeLERT from './Pages/Profecionales/ProfeLERT';
+import ProfeIEMS from './Pages/Profecionales/ProfeIEMS'; 
 //Servicios
-import Servicios from './Servicios/Servicios';
-import DisputasC from './Servicios/DisputasC';
-import LitigiosA from './Servicios/LitigiosA';
-import EconomiaS from './Servicios/Economia';
-import Monitoreos from './Servicios/Monitoreos';
-import MxUSA from './Servicios/MxUSA';
-import RemediosCo from './Servicios/Remedios'
+import Servicios from './Pages/Servicios/Servicios';
+import DisputasC from './Pages/Servicios/DisputasC';
+import LitigiosA from './Pages/Servicios/LitigiosA';
+import EconomiaS from './Pages/Servicios/Economia';
+import Monitoreos from './Pages/Servicios/Monitoreos';
+import MxUSA from './Pages/Servicios/MxUSA';
+import RemediosCo from './Pages/Servicios/Remedios'
 //Remedios Comerciales 
-import RemediosComerciales from './Remedios comerciales/RemediosComer';
-import AntiDumpig from './Remedios comerciales/AntiDumping';
-import AntiSubveciones from './Remedios comerciales/AntiSubvenciones';
-import Salvaguardias from './Remedios comerciales/Salvaguardias';
-import Examenes from './Remedios comerciales/Examenes';
-import Revisiones from './Remedios comerciales/Revisiones';
-import Elusion from './Remedios comerciales/Elusion';
-import Cobertura from './Remedios comerciales/Cobertura';
+import RemediosComerciales from './Pages/Remedios comerciales/RemediosComer';
+import AntiDumpig from './Pages/Remedios comerciales/AntiDumping';
+import AntiSubveciones from './Pages/Remedios comerciales/AntiSubvenciones';
+import Salvaguardias from './Pages/Remedios comerciales/Salvaguardias';
+import Examenes from './Pages/Remedios comerciales/Examenes';
+import Revisiones from './Pages/Remedios comerciales/Revisiones';
+import Elusion from './Pages/Remedios comerciales/Elusion';
+import Cobertura from './Pages/Remedios comerciales/Cobertura';
 //Disputas Comerciales
-import DisputasComerciales from './DisputasComerciales/DisputasComerciales';
-import PlanesOMC from './DisputasComerciales/PlanesOMC';
-import PlanesTLC from './DisputasComerciales/PlanesTLC';
+import DisputasComerciales from './Pages/DisputasComerciales/DisputasComerciales';
+import PlanesOMC from './Pages/DisputasComerciales/PlanesOMC';
+import PlanesTLC from './Pages/DisputasComerciales/PlanesTLC';
 //Litigios Antidumping
-import Amparos from './LitigiosAntidumoing/Amparos';
-import Juicios from './LitigiosAntidumoing/Juicios';
-import LitigiosAnti from './LitigiosAntidumoing/LitigiosAnti';
-import Peritajes from './LitigiosAntidumoing/Peritajes';
-import RecursosReno from './LitigiosAntidumoing/RecursoReno';
+import Amparos from './Pages/LitigiosAntidumoing/Amparos';
+import Juicios from './Pages/LitigiosAntidumoing/Juicios';
+import LitigiosAnti from './Pages/LitigiosAntidumoing/LitigiosAnti';
+import Peritajes from './Pages/LitigiosAntidumoing/Peritajes';
+import RecursosReno from './Pages/LitigiosAntidumoing/RecursoReno';
 //Economia Litigios
-import Analisis from './Economia/Analisis';
-import Calculo from './Economia/Calculo';
-import DanoIn from './Economia/DanoIn';
-import Economia from './Economia/Economia';
-import Margenes from './Economia/Margenes';
-import VerificacionesE from './Economia/Verificaciones';
+import Analisis from './Pages/Economia/Analisis';
+import Calculo from './Pages/Economia/Calculo';
+import DanoIn from './Pages/Economia/DanoIn';
+import Economia from './Pages/Economia/Economia';
+import Margenes from './Pages/Economia/Margenes';
+import VerificacionesE from './Pages/Economia/Verificaciones';
 //Monitoreo estrategico
-import Alertas from './Monitoreo/Alertas';
-import Monitoreo from './Monitoreo/Monitoreo';
-import Precios from './Monitoreo/Precios';
+import Alertas from './Pages/Monitoreo/Alertas';
+import Monitoreo from './Pages/Monitoreo/Monitoreo';
+import Precios from './Pages/Monitoreo/Precios';
 //Mx-USA Trade Planning
-import Cuestionarios from './MXUSA/Cuestionarios';
-import MXUSA from './MXUSA/Mxusa';
-import Riesgos from './MXUSA/Riesgos';
-import Verificaciones from './MXUSA/Verificaciones';
+import Cuestionarios from './Pages/MXUSA/Cuestionarios';
+import MXUSA from './Pages/MXUSA/Mxusa';
+import Riesgos from './Pages/MXUSA/Riesgos';
+import Verificaciones from './Pages/MXUSA/Verificaciones';
 //Industrias
-import Agropecuario from './Industrias/Agropecuario';
-import Consumo from './Industrias/Cosumo';
-import Industrias from './Industrias/Industrias';
-import Manufacturero from './Industrias/Manufacturero';
+import Agropecuario from './Pages/Industrias/Agropecuario';
+import Consumo from './Pages/Industrias/Cosumo';
+import Industrias from './Pages/Industrias/Industrias';
+import Manufacturero from './Pages/Industrias/Manufacturero';
 //Presencia
-import Articulos from './Presencia/Articulos';
-import Noticia from './Presencia/Noticia';
-import Presencia from './Presencia/Presencia';
-import Redes from './Presencia/Redes';
+import Articulos from './Pages/Presencia/Articulos';
+import Noticia from './Pages/Presencia/Noticia';
+import Presencia from './Pages/Presencia/Presencia';
+import Redes from './Pages/Presencia/Redes';
 //Recursos
-import AntiMe from './Recursos/AntiMe';
-import AntiUsa from './Recursos/AntiUSa';
-import Estadisticas from './Recursos/Estadisticas';
-import Legislacion from './Recursos/Legislacion';
-import Otros from './Recursos/Otros';
-import Recursos from './Recursos/Recursos';
+import AntiMe from './Pages/Recursos/AntiMe';
+import AntiUsa from './Pages/Recursos/AntiUSa';
+import Estadisticas from './Pages/Recursos/Estadisticas';
+import Legislacion from './Pages/Recursos/Legislacion';
+import Otros from './Pages/Recursos/Otros';
+import Recursos from './Pages/Recursos/Recursos';
 //Contacto
-import Contacto from './Contacto';
+import Contacto from './Pages/Contacto';
 //Lang
 import Esp from './Lang/Esp.json'
 import Eng from './Lang/Eng.json'
