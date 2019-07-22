@@ -3,12 +3,6 @@ import {BrowserRouter as Router,Route} from 'react-router-dom'
 import './App.css';
 import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
-// import MenuPrin from './components/MenuPrin/MenuPrin'
-// import ServicioS from './components/Pages/Servicios'
-// import ImgOs from './components/ImgOs/ImgOs'
-// import Faceb from './components/Faceb/Faceb'
-
-
 //Home
 import Home from  './Pages/Home'
 //Nosotros 
@@ -99,8 +93,6 @@ library.add(fab)
 const dataEsp = Esp
 const dataEng = Eng
 
-
-
 class App extends Component {
 
 
@@ -114,14 +106,12 @@ class App extends Component {
     this.setState({
       data:dataEng,
       idioma:"Eng"
-    }
-    )
+    })
     :
     this.setState({
       data:dataEsp,
       idioma:"Esp"
-    }
-    )
+    })
   }
 
 
@@ -129,10 +119,6 @@ class App extends Component {
     return (
       <Router>
         <Navbar/>
-              {/* <Route exact path="/" component={MenuPrin} />
-              <Route exact path="/servicios" component={Servicios} />
-              <Route exact path="/nosotros" component={ImgOs}/>
-              <Route exact path="/facebook" component={Faceb}/> */}
               {/* Home */}
               <Route exact path= "/" component={() => <Home ata={this.state.data}/>}/>
               <Route exact path="/Nosotros/" component={() => <Nosotros data={this.state.data} />}/>
@@ -206,10 +192,6 @@ class App extends Component {
               <Route exact path="/Recursos/Otros-Sitios" component={() => <Otros data={this.state.data} />}/>
               {/* Contacto */}
               <Route exact path="/Contacto/" component={() => <Contacto data={this.state.data} />}/>
-              {/* <Route exact path="/" component={}/>
-              <Route exact path="/" component={}/>
-              <Route exact path="/" component={}/>
-              <Route exact path="/" component={}/> */}
       <Footer/>
   </Router>
     );
