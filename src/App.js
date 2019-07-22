@@ -117,7 +117,7 @@ class App extends Component {
 
   render() {
     return (
-      <Router>
+      <Router> 
         <Navbar/>
               {/* Home */}
               <Route exact path= "/" component={() => <Home ata={this.state.data}/>}/>
@@ -127,9 +127,9 @@ class App extends Component {
               <Route exact path="/Socias/LERT" component={() => <SociasLert data={this.state.data} />}/>
               <Route exact path="/Socias/IEMS" component={() => <SociasIEMS data={this.state.data} />}/>
               {/* Profecionales */}
-              <Route exact path="/Profecionales/" component={() => <Profecionales data={this.state.data} />}/>
-              <Route exact path="/Profecionales/LERT" component={() => <ProfeLERT data={this.state.data} />}/>
-              <Route exact path="/Profecionales/IEMS" component={() => <ProfeIEMS data={this.state.data} />}/>
+              <Route exact path="/Profesionales/" component={() => <Profecionales data={this.state.data} />}/>
+              <Route exact path="/Profesionales/LERT" component={() => <ProfeLERT data={this.state.data} />}/>
+              <Route exact path="/Profesionales/IEMS" component={() => <ProfeIEMS data={this.state.data} />}/>
               {/* Servicios */}
               <Route exact path="/Servicios/" component={() => <Servicios data={this.state.data} />}/>
               <Route exact path="/Servicios/RemediosC" component={() => <RemediosCo data={this.state.data} />}/>

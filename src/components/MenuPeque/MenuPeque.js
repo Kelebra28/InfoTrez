@@ -1,5 +1,7 @@
 import React from 'react';
 import './Style.css'
+import {BrowserRouter as Router,Route, Link} from 'react-router-dom'
+
 
 
 
@@ -10,12 +12,12 @@ class MenuPq extends React.Component {
         
     render(){
         return(
-            <a  
+            <Link  
                 className="contenedorPq item1 displaypq" 
                 style={{"display": this.props.display }}
-                href={this.props.linkMenuPq}
+                to={this.props.linkMenuPq}
                 onMouseEnter={ () => this.chageColor() } 
-                onMouseEnter={ () => this.onMouseEnter() }>{this.props.contenidoMenuPq}</a>
+                onMouseEnter={ () => this.onMouseEnter() }>{this.props.contenidoMenuPq}</Link>
         )
     }
 
