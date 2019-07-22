@@ -1,4 +1,5 @@
 import React from 'react';
+import {BrowserRouter as Router,Route, Link} from 'react-router-dom'
 import Rlogo from '../../assents/logo.png'
 import Search from '../../assents/search.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -11,7 +12,7 @@ const Navbar = () => {
                 <input type="checkbox" name="" id="nav-check"/>
                 <section className="nav-header">
                     <div className="nav-logo">
-                        <a href="/"><img src={Rlogo} alt=""/></a>
+                        <Link to="/"><img src={Rlogo} alt=""/></Link>
                     </div>
                 </section>
                 <div className="nav-btn dots">
@@ -19,13 +20,13 @@ const Navbar = () => {
                 </div>
                 <section className="nav-links">
                     <article className="linksPrincipales">
-                        <a href="/Nosotros">Nosotros</a>
-                        <a href="/Socias">Socias</a>
-                        <a href="/Servicios">Servicios</a>
-                        <a href="/Industrias">Industrias</a>
-                        {/* <a href="/Presencia">Presencia</a> */}
-                        <a href="/Recursos">Recursos</a>
-                        <a href="/Contacto">Contacto</a>
+                        <Link to="/Nosotros">Nosotros</Link>
+                        <Link to="/Socias">Socias</Link>
+                        <Link to="/Servicios">Servicios</Link>
+                        <Link to="/Industrias">Industrias</Link>
+                        {/* <Link to="/Presencia">Presencia</Link> */}
+                        <Link to="/Recursos">Recursos</Link>
+                        <Link to="/Contacto">Contacto</Link>
                     </article>
                 </section>
                 <section className="buscarylinks">
@@ -33,19 +34,19 @@ const Navbar = () => {
                         <input type="text"/>
                         <img src={Search} alt=""/>
                     </article>
-                    <a href="" className="fab fa-linkedin-in fa-2x" target="_blank"><FontAwesomeIcon icon={['fab', 'linkedin-in']} /></a>
-                    <a href=""><FontAwesomeIcon className="fab fa-twitter fa-2x" icon={['fab', 'twitter']} /></a>
-                    <a href=""><FontAwesomeIcon className="fab fa-blogger-b fa-2x" icon={['fab', 'blogger-b']} /></a>
+                    <Link to="" className="fab fa-linkedin-in fa-2x" target="_blank"><FontAwesomeIcon icon={['fab', 'linkedin-in']} /></Link>
+                    <Link to=""><FontAwesomeIcon className="fab fa-twitter fa-2x" icon={['fab', 'twitter']} /></Link>
+                    <Link to=""><FontAwesomeIcon className="fab fa-blogger-b fa-2x" icon={['fab', 'blogger-b']} /></Link>
                 </section>
                 <hr className="hrNavLinks"/>
                 <section className="containerSec">
                     <article className="linksSecundarios">
-                        <a href="/Servicios/RemediosC">Remedios Comerciales</a>
-                        <a href="/DisputasComerciales/">Disputas Comerciales</a>
-                        <a href="/LitigiosAntidumping">Litigios Antidumping</a>
-                        <a href="/EconomiaLitigios/">Economía-Litigios</a>
-                        <a href="/MonitoreoEstrategico/">Monitoreos Estratégico</a>
-                        <a href="/Mx-USA-TradePlanning">Mx-USA Trade Planning</a>
+                        <Link to="/Servicios/RemediosC">Remedios Comerciales</Link>
+                        <Link to="/DisputasComerciales/">Disputas Comerciales</Link>
+                        <Link to="/LitigiosAntidumping">Litigios Antidumping</Link>
+                        <Link to="/EconomiaLitigios/">Economía-Litigios</Link>
+                        <Link to="/MonitoreoEstrategico/">Monitoreos Estratégico</Link>
+                        <Link to="/Mx-USA-TradePlanning">Mx-USA Trade Planning</Link>
                     </article>
                 </section>
             </header>
