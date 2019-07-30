@@ -1,7 +1,7 @@
 import React from 'react';
 import { FacebookProvider, Page } from 'react-facebook';
 
-const Faceb = () => {
+const contenedorDer = () => {
 
   return (
     <section className="seccionDer">
@@ -13,4 +13,4 @@ const Faceb = () => {
 
 }
 
-export default Faceb
+export default contenedorDer

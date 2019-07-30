@@ -24,9 +24,6 @@ const Nosotros = props => {
                 // parrafoNueve={props.data.socias.Itziar.p1}
                 />
             </section>
-            <section>
-                
-            </section>
         </div>
     );
 
