@@ -9,12 +9,12 @@ const Footer = () => {
         <div>
             <footer className="footerWeb">
                 <section className="designedby">
-                    <p>Desinged by</p>
+                    <p>Designed by</p>
                     <img src={logoSoma} className="imgSoma" alt="Logo soma"/>
                 </section>
                 <section className="direccion">
                     <center>
-                        <p>Torre Siglum Insurgentes Sur #1898, Piso 14 Despacho 1421</p>
+                        <p>Torre Siglum Insurgentes Sur #1898 Piso 14 Despacho 1421</p>
                     </center>
                     <p>Col. Florida 01020 CDMX, México</p>
                 </section>
