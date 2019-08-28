@@ -1,5 +1,6 @@
 import React from 'react';
 import './Style.css'
+import '../Responsive.css'
 
 const MenuPrin = () => {
     return(

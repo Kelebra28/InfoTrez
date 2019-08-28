@@ -20,7 +20,7 @@ main {
     /* border: solid 1px red; */
     width: 55%;
     height: 4em;
-    background-color: #595a5c;
+    background-color: #858585d2;
     color: white;
     display: flex;
     justify-content: flex-end;
@@ -44,7 +44,7 @@ main {
     /* border: solid 1px red; */
     width: 50%;
     height: 5em;
-    background-color: #595a5c;
+    background-color: #858585d2;
     color: white;
     font-size: 80%;
     display: flex;

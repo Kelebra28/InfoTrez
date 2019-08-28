@@ -1,12 +1,15 @@
 import React, { Component } from 'react';
+import ReactDOM from 'react-dom'
 import {BrowserRouter as Router,Route} from 'react-router-dom'
 import './App.css';
 import Navbar from './components/Navbar/Navbar'
 import Footer from './components/Footer/Footer'
+import FooterResponsive from './components/FooterResponsive/FooterResponsive';
+
 //Home
 import Home from  './Pages/Home'
 //Nosotros 
-import Nosotros from './Pages/Nosotros'
+import Nosotros from './Pages/Us/Nosotros'
 //socias
 import Socias from './Pages/Socias/Socias';
 import SociasLert from './Pages/Socias/SociasLER';
@@ -81,12 +84,17 @@ import Contacto from './Pages/Contacto';
 import Esp from './Lang/Esp.json'
 import Eng from './Lang/Eng.json'
 
+// import { faStroopwafel as fasFaStroopwafel } from '@fortawesome/free-solid-svg-icons'
+// import { faStroopwafel as farFaStroopwafel } from '@fortawesome/free-regular-svg-icons'
 
 import { fab } from '@fortawesome/free-brands-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
+import { far } from '@fortawesome/free-regular-svg-icons'
+import { faCheckSquare, faBlog } from '@fortawesome/free-solid-svg-icons'
 
 
-library.add(fab)
+
+library.add(fab, far, faCheckSquare, faBlog)
 
 
 
@@ -137,9 +145,9 @@ class App extends Component {
               <Route exact path="/Servicios/LitiguiosA" component={() => <LitigiosA data={this.state.data} />}/>
               <Route exact path="/Servicios/Economia" component={() => <EconomiaS data={this.state.data} />}/>
               <Route exact path="/Servicios/Monitoreos" component={() => <Monitoreos data={this.state.data} />}/>
-              <Route exact path="/Servicios/MX-USA" component={() => <MxUSA data={this.state.data} />}/>
+              <Route exact path="/Servicios/MX-USA" component={() => <MxUSA data={this.state.data} />}/> 
               {/* Remedios Comerciales */}
-              <Route exact path="/RemediosComerciales/" component={() => <RemediosComerciales data={this.state.data} />}/>
+              <Route exact path="/RemediosC/" component={() => <RemediosComerciales data={this.state.data} />}/>
               <Route exact path="/RemediosComerciales/Anti-Dumping" component={() => <AntiDumpig data={this.state.data} />}/>
               <Route exact path="/RemediosComerciales/Anti-Subvenciones" component={() => <AntiSubveciones data={this.state.data} />}/>
               <Route exact path="/RemediosComerciales/Salvaguardias" component={() => <Salvaguardias data={this.state.data} />}/>
@@ -193,6 +201,7 @@ class App extends Component {
               {/* Contacto */}
               <Route exact path="/Contacto/" component={() => <Contacto data={this.state.data} />}/>
       <Footer/>
+      <FooterResponsive/>
   </Router>
     );
   }

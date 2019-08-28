@@ -3,22 +3,26 @@ import './Style.css'
 const Contenido = props => {
     return (
         <div className="contenido">
-            <p>
-            {props.parrafo} <br/><br/> 
-            {props.parrafoDos}<br/><br/> 
-            {props.parrafoTres}<br/><br/> 
-            {props.parrafoCuatro} <br/><br/> 
-            {props.parrafoCinco} <br/><br/>
-            {props.parrafoSeis} <br/><br/>
-            {props.parrafoSiete}<br/><br/>
-            {props.parrafoOcho}<br/><br/>
-            {props.parrafoNueve}<br/><br/>
-            {props.parrafoDiez}<br/><br/>
-            {props.parrafoOnce}<br/><br/>
-
-            </p>
+            <p>{props.parrafo}</p>
+            <div className={props.marginUs}>
+                <p className={props.classUs}>{props.parrafoDos}</p>
+                <p className={props.displayUs}>{props.parrafoTres}</p>
+            </div>
+            <div className={props.marginUs}>
+                <p className={props.classUs}>{props.parrafoCuatro}</p>
+                <p className={props.displayUs}>{props.parrafoCinco}</p>
+            </div>
+            <div className={props.marginUs}>
+                <p   className={props.classUs}>{props.parrafoSeis}</p>
+                <p className={props.displayUs}>{props.parrafoSiete}</p>
+            </div>
+            <p  className={props.displayUs}>{props.parrafoOcho}</p>
+            <p  className={props.displayUs}>{props.parrafoNueve}</p>
+            <p  className={props.displayUs}>{props.parrafoDiez}</p>
+            <p  className={props.displayUs}>{props.parrafoOnce}</p>
         </div>
     )
 }
+
 
 export default Contenido;

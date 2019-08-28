@@ -13,6 +13,25 @@
 .item1:hover {
     width: 105%;
     height: 3em;
+    color: #631514;
+}
+
+.item2 {
+    height: 2.5em;
+    background-color: #ededed;
+    color: #000;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    padding-left: 1em;
+    transition: 0.5s all ease-out;
+    font-size: 13px;
+}
+
+.item2:hover {
+    width: 105%;
+    height: 3em;
+    color: #631514;
 }
 /* 
 .displaypq{

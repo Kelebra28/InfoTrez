@@ -1,3 +1,10 @@
 .textPrincipal {
     text-align: justify;
 }
+
+@media (max-width: 700px) {
+    .textPrincipal {
+        text-align: justify;
+    }
+}
+

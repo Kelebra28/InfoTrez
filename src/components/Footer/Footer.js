@@ -19,7 +19,7 @@ const Footer = () => {
                     <p>Col. Florida 01020 CDMX, México</p>
                 </section>
                 <section className="contacto">
-                    <p> (55) 9171-1027/52 </p>
+                    <p> (55)9171-1047/52 </p>
                     <a href="mailto:trez@t-rezconsulting.com">trez@t-rezconsulting.com</a>
                 </section>               
             </footer>

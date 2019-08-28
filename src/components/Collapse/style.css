@@ -1,0 +1,26 @@
+.customButtonCollapse{
+    width: 100%;
+    border: solid 1px #ededed;
+    border-radius: 8px;
+    background-color: #ededed;
+    color: #000;
+    height: 3em;
+}
+
+.customButtonCollapse:hover{
+    width: 100%;
+    border: solid 2px #631514;
+    background-color: #dfdede;
+    color: #000;
+}
+
+.customButtonCollapse:active{
+    width: 100%;
+    border: solid 2px #631514;
+    background-color: #d4d4d4 !important;
+    color: #000 !important;
+}
+
+.customCard{
+    margin-bottom: 1em;
+}

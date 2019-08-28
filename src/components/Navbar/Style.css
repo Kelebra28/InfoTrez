@@ -94,7 +94,7 @@ body {
     color: #5c5c60;
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 16pt;
+    font-size: 17pt;
 }
 
 .linksPrincipales a:hover {
@@ -122,13 +122,12 @@ body {
 .linksSecundarios a {
     color: #631514;
     text-decoration: none;
-    font-size: 11pt;
+    font-size: 12pt;
 }
 
 .linksSecundarios a:hover {
     color: #631514;
     text-decoration: underline;
-    font-size: 11pt;
 }
 
 .buscarylinks {
@@ -152,21 +151,38 @@ body {
 
 .groupinput>input {
     border-radius: 50px;
+    border: solid 1px #5c5c60;
+    background-color: white;
+    width: 100%;
+    height: 2em;
+    padding: 1em;
+}
+
+.groupinput>input:focus {
+    border-radius: 50px;
     border: none;
     background-color: #631514;
     width: 100%;
     height: 2em;
+    padding: 1em;
+    /* border: solid 1px; */
     color: #fff;
+    caret-color: #fff;
 }
 
 .groupinput img {
     width: 15px;
     height: 15px;
     margin-left: -24px;
-    filter: invert(100%);
+    filter: invert(70%);
 }
 
-.buscarylinks i {
+
+.buscarylinks a {
+    color: gray;
+}
+
+.buscarylinks a:hover {
     color: #631514;
 }
 
@@ -179,3 +195,16 @@ body {
 }
 
 /* ----------------termina header------------------------------ */
+
+@media (max-width:700px) {
+
+    .preventHeader{
+        margin-top: -7em;;
+    }
+
+    .buscarylinks > a * {
+        font-size: 20px;
+    }
+
+
+}

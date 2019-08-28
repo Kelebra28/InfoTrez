@@ -1,4 +1,6 @@
 .title {
     color: #6c6968;
-    font-size: 22px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
 }

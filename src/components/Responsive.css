@@ -63,13 +63,14 @@
         display: flex;
         flex-direction: column;
         align-items: flex-end;
-        margin-top: 1em;
+        margin-top: -1em !important;
+        margin-bottom: 3em;
     }
     .linksPrincipales a {
         color: #5c5c60;
         text-decoration: none;
         text-transform: uppercase;
-        font-size: 16.16pt;
+        font-size: 14.16pt !important;
         border-bottom: 1.5px solid #631514;
         margin-top: 1em;
     }
@@ -138,7 +139,7 @@
         margin-left: -24px;
         filter: invert(40%);
     }
-    .buscarylinks i {
+    .buscarylinks a {
         color: #5c5c60;
         font-size: 20px;
     }
@@ -198,9 +199,26 @@
         width: 100%;
         height: 100%;
     }
+
+    .pleca1 {
+        width: 80%;
+    }
+
+    .pleca2 {
+        width: 70%;
+    }
+
+    .pleca1 p {
+        font-size: 20px !important;
+    }
+
+    .pleca2 p {
+        font-size: 20px !important;
+    }
     /* ----------termina main----------------- */
     /* -----------------empieza footer-------------------------- */
     .footerResponsive {
+        padding-top: 1em;
         background-color: #595a5c;
         display: flex;
         justify-content: space-around;

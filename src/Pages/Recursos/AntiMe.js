@@ -2,7 +2,6 @@ import React from 'react';
 import Contenido from '../../components/Contenido/contenido';
 import MenuIzq from '../../components/MenuIzq/MenuIzq'
 import HeaderTitle from '../../components/Header/Header'
-import ContenedorCen from '../../components/ContenedorCen/ContenedorCen'
 
 const AntiMe = props => {
     return (

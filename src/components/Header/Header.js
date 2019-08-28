@@ -3,9 +3,10 @@ import './HeaderStyle.css'
 
 const HeaderTitle = props => {
     return (
-        <div className="title">
-            <h2>{props.title}</h2>
-        </div>
+        <p id={props.id} className="title">
+            <span className="titleEsp">{props.title}</span> 
+            {props.title2}
+        </p>
     )
 }
 

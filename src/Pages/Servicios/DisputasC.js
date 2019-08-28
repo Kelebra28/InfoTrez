@@ -1,12 +1,18 @@
 import React from 'react';
 import Contenido from '../../components/Contenido/contenido';
 import '../Pages.css'
+import HeaderTitle from '../../components/Header/Header';
 
 const DisputasC = props => {
     return (
         <div className="page">
             <section className="areaTextContainer">
                 {/* <div data={props.data} nombreArea={props.data.socias.Luz.title} /> */}
+                <HeaderTitle
+                        id="agropecuario"
+                        data={props.data}
+                        title2={props.data.industrias.menu.p1}
+                />
                 <Contenido data={props.data}
                     parrafo={props.data.socias.Itziar.title}
                     parrafoDos={props.data.socias.Itziar.p1}

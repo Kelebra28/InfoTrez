@@ -2,7 +2,6 @@ import React from 'react';
 import Contenido from '../../components/Contenido/contenido';
 import HeaderTitle from '../../components/Header/Header'
 import MenuIzq from '../../components/MenuIzq/MenuIzq'
-// import ContenedorCen from '../../components/ContenedorCen/ContenedorCen'
 
 
 

@@ -1,34 +1,54 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
 import Contenido from '../../components/Contenido/contenido';
 import HeaderTitle from '../../components/Header/Header'
-import MenuIzq from '../../components/MenuIzq/MenuIzq'
-import imgSocia from '../../Img/Layer2.png'
+import MenuIzq from '../../components/MenuIzq2/MenuIzq'
+import ContenedorDer from '../../components/contenedorDer/contenedorDer';
+import imgSocia from '../../Img/Itziar.png'
 import './Socias.css'
 import '../Pages.css'
+import imgLap from '../../Img/planta.png'
+
 const SociasIEMS = props => {
     return (
-        <div className="page">
-            <MenuIzq
-                MenuPq1="/Socias/LERT"
-                MenuPq2="/Socias/IEMS"
-                contenidoP1={props.data.socias.nombres.luz}
-                contenidoP2={props.data.socias.nombres.itzia}
-                display3="none"
-                display4="none"
-                display5="none"
-                display6="none"
-                display7="none"
-                display8="none"
-            />
+        <section className="preventMain">
+            <div className="page main">
+                <MenuIzq
+                    MenuPq1="/Socias/LERT"
+                    MenuPq2="/Socias/IEMS"
+                    contenidoP1={props.data.socias.nombres.luz}
+                    contenidoP2={props.data.socias.nombres.itzia}
+                    display3="none"
+                    display4="none"
+                    display5="none"
+                    display6="none"
+                    display7="none"
+                    display8="none"
+                    imgMenuIzq={imgLap}
+                />
 
-            <section className="seccionCentro">
+                <section className="seccionCentro">
 
-                <div className="contenidoCentro">
+                    <div className="d-block d-lg-none mb-3">
+                        <Link className="item1" to="/Socias/LERT">Luz Elena Reyes De la Torre</Link>
+                        <Link className="item1" to="/Socias/IEMS">Itziar Esparza Mejía</Link>
+                    </div>
+
                     <HeaderTitle data={props.data}
                         title={props.data.socias.nombres.itzia}
                     />
-                    <div className="">
+                    <div className="contenedorProfesional flex-column flex-lg-row">
                         <img className="imgSocia" src={imgSocia} alt="" />
+                        <div className="contactoProfesional mt-3 mt-lg-0">
+                            <a href="">
+                                <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
+                            </a>
+                            <a href="mailto:iem@t-rezconsulting.com">iem@t-rezconsulting.com</a>
+                            <a href="https://si.ua.es/es/documentos/documentacion/pdf-s/mozilla12-pdf.pdf">
+                                <FontAwesomeIcon icon={['far', 'file-pdf']} />
+                            </a>
+                        </div>
                     </div>
                     <Contenido data={props.data}
                         // parrafo={props.data.socias.Itziar.title}
@@ -41,9 +61,10 @@ const SociasIEMS = props => {
                     // parrafoOcho={props.data.socias.Itziar.p1}
                     // parrafoNueve={props.data.socias.Itziar.p1}
                     />
-                </div>
-            </section>
-        </div>
+                </section>
+                <ContenedorDer />
+            </div>
+        </section>
     );
 
 }
