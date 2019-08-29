@@ -40,7 +40,7 @@ const SociasIEMS = props => {
                         title={props.data.socias.nombres.itzia}
                     />
                     <div className="contenedorProfesional flex-column flex-lg-row">
-                        <img className="imgSocia" src={imgSocia} alt="" />
+                        {/* <img className="imgSocia" src={imgSocia} alt="" /> */}
                         <div className="contactoProfesional mt-3 mt-lg-0">
                             <a href="">
                                 <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
