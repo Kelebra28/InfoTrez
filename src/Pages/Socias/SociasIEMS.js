@@ -13,7 +13,7 @@ import cv from '../../assents/cv-itziar.pdf'
 
 const SociasIEMS = props => {
     return (
-        <section className="preventMain">
+        <section className="preventMain"> 
             <div className="page main">
                 <MenuIzq
                     MenuPq1="/Socias/LERT"
@@ -42,7 +42,7 @@ const SociasIEMS = props => {
                     <div className="contenedorProfesional flex-column flex-lg-row">
                         <img className="imgSocia" src={imgSocia} alt="" />
                         <div className="contactoProfesional mt-3 mt-lg-0">
-                            <a href="https://www.google.com">
+                            <a href="">
                                 <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
                             </a>
                             <a href="mailto:iem@t-rezconsulting.com">iem@t-rezconsulting.com</a>

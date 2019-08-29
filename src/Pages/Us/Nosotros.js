@@ -4,7 +4,7 @@ import Contenido from '../../components/Contenido/contenido';
 import './styles.css'
 import MenuIzq from '../../components/MenuIzq/MenuIzq';
 import ContenedorDer from '../../components/contenedorDer/contenedorDer';
-import imgPlanta from '../../Img/planta.png'
+import imgPlanta from '../../Img/Nosotros.png'
 
 const Nosotros = props => {
     return (

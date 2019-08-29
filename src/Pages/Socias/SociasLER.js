@@ -9,6 +9,7 @@ import imgSocia from '../../Img/Layer2.png'
 import imgLap from '../../Img/lapcafe.jpg'
 import './Socias.css'
 import '../Pages.css'
+import cv from '../../assents/cv-luz.pdf'
 
 const SociasLert = props => {
     return (
@@ -44,7 +45,7 @@ const SociasLert = props => {
                                 <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
                             </a>
                             <a href="mailto:ler@t-rezconsulting.com">ler@t-rezconsulting.com</a>
-                            <a href="https://si.ua.es/es/documentos/documentacion/pdf-s/mozilla12-pdf.pdf">
+                            <a href={cv} target="_blank">
                                 <FontAwesomeIcon icon={['far', 'file-pdf']} />
                             </a>
                         </div>

@@ -104,10 +104,10 @@ export default class CustomNav extends React.Component {
                             <a href="nosEXD">
                                 <FontAwesomeIcon icon={['fab', 'twitter']} size="2x" />
                             </a>
-                            <a href="noseXD">
+                            <Link to="/ComingSoon">
                                 {/* <FontAwesomeIcon icon={['far', 'file-pdf']} />    */}
                                 <FontAwesomeIcon icon="blog" size="2x" />
-                            </a>
+                            </Link>
                         </section>
                         <hr className="hrNavLinks" />
                         <section className="containerSec">

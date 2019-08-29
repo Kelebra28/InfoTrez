@@ -84,6 +84,9 @@ import Contacto from './Pages/Contacto';
 import Esp from './Lang/Esp.json'
 import Eng from './Lang/Eng.json'
 
+//Coming Soon
+import ComingSoon from './Pages/ComingSoon'
+
 // import { faStroopwafel as fasFaStroopwafel } from '@fortawesome/free-solid-svg-icons'
 // import { faStroopwafel as farFaStroopwafel } from '@fortawesome/free-regular-svg-icons'
 
@@ -128,8 +131,9 @@ class App extends Component {
       <Router> 
         <Navbar/>
               {/* Home */}
-              <Route exact path= "/" component={() => <Home ata={this.state.data}/>}/>
+              <Route exact path= "/" component={() => <Home data={this.state.data}/>}/>
               <Route exact path="/Nosotros/" component={() => <Nosotros data={this.state.data} />}/>
+              <Route exact path= "/ComingSoon" component={() => <ComingSoon data={this.state.data}/>}/>
               {/* Socias */}
               <Route exact path="/Socias/" component={() => <Socias data={this.state.data} />}/>
               <Route exact path="/Socias/LERT" component={() => <SociasLert data={this.state.data} />}/>

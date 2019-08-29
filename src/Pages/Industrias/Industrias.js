@@ -3,7 +3,7 @@ import Contenido from '../../components/Contenido/contenido';
 import MenuIzq from '../../components/MenuIzq/MenuIzq'
 import HeaderTitle from '../../components/Header/Header'
 import './Industrias.css'
-import industrias from '../../Img/INDUSTRIAS.png'
+import industrias from '../../Img/Industries.png'
 import ContenedorDer from '../../components/contenedorDer/contenedorDer';
 
 const Industrias = props => {

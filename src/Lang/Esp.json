@@ -250,30 +250,33 @@
             "h1": "1. Legislación OMC",
             "p1": "Acuerdo Antidumping",
             "p2": "Acuerdo de Salvaguardias",
-            "p3": "Solución de diferencias  OMC"
+            "p3": "Acuerdo sobre Subvenciones y Medidas Compensatorias",
+            "p4": "Solución de diferencias  OMC"
         },
         "antidumping": {
             "h1": "2. Antidumping en México",
             "p1": "Ley de Comercio Exterior",
             "p2": "Reglamento de la Ley de Comercio Exterior",
-            "p3": "DOF "
+            "p3": "Diario Oficial de la Federación ",
+            "p4": "Unidad de Prácticas Comerciales Internacionales (UPCI)",
+            "p5" :"Consejo Consultivo de Prácticas Comerciales Internacionales (CCPCI)"
         },
         "antidumpigEUA": {
             "h1": "3. Antidumping en EUA",
-            "p1": "DOC",
-            "p2": "USITC",
+            "p1": "Departamento de Comercio de los EUA (USDOC)",
+            "p2": "International Trade Comission (USITC)",
             "p3": "Federal Register"
         },
         "estadistica": {
             "h1": "4. Estadísticas Comerciales",
-            "p1": "TIGIE",
-            "p2": "SIAVI",
-            "p3": "TIGI EUA"
+            "p1": "Tarifa de la Ley de los Impuestos Generales de Importación y Exportación (TIGIE)",
+            "p2": "Sistema de Información Arancelaria vía Internet (SIAVI)",
+            "p3": "International Trade Center (ITC)"
         },
         "otros": {
             "h1": "5. Otros Sitios Relevantes",
-            "p1": "ITC",
-            "p2": "TIGI"
+            "p1": "Correlación TIGI y y el Sistema de Clasificación Industrial de América del Norte (SCIAN)",
+            "p2": "World Trade Law"
         }
     },
     "contacto": {

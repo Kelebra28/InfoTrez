@@ -3,7 +3,7 @@ import Contenido from '../../components/Contenido/contenido';
 import HeaderTitle from '../../components/Header/Header'
 import MenuIzq from '../../components/MenuIzq/MenuIzq'
 import ContenedorDer from '../../components/contenedorDer/contenedorDer';
-import imgPlanta from '../../Img/planta.png'
+import imgPlanta from '../../Img/recursos.png'
 
 const Recursos = props => {
     return (
@@ -40,11 +40,16 @@ const Recursos = props => {
                         data={props.data}
                         title2={props.data.recursos.menu.p1}
                     />
-                    <Contenido
+                    <Contenido 
                         data={props.data.industrias.agropecuario.h1}
                         parrafoDos={props.data.recursos.legislacion.p1}
                         parrafoTres={props.data.recursos.legislacion.p2}
                         parrafoCuatro={props.data.recursos.legislacion.p3}
+                        parrafoCinco={props.data.recursos.legislacion.p4}
+                        href="https://www.wto.org/spanish/docs_s/legal_s/19-adp_01_s.htm"
+                        href2="https://www.wto.org/spanish/docs_s/legal_s/25-safeg_s.htm"
+                        href3="https://www.wto.org/spanish/docs_s/legal_s/24-scm_01_s.htm"
+                        href4="https://www.wto.org/spanish/tratop_s/dispu_s/dispu_s.htm"
                     />
                     <HeaderTitle
                         id="antidumping"
@@ -56,6 +61,13 @@ const Recursos = props => {
                         parrafoDos={props.data.recursos.antidumping.p1}
                         parrafoTres={props.data.recursos.antidumping.p2}
                         parrafoCuatro={props.data.recursos.antidumping.p3}
+                        parrafoCinco={props.data.recursos.antidumping.p4}
+                        parrafoSeis={props.data.recursos.antidumping.p5}
+                        href="http://www.diputados.gob.mx/LeyesBiblio/pdf/28.pdf"
+                        href2="http://www.diputados.gob.mx/LeyesBiblio/regley/Reg_LCE.pdf"
+                        href3=" https://www.dof.gob.mx/"
+                        href4=" https://www.gob.mx/se/acciones-y-programas/industria-y-comercio-unidad-de-practicas-comerciales-internacionales-upci"
+                        href5="http://www.ccpci.economia.gob.mx/swb/es/ccpci"
                     />
                     <HeaderTitle
                         id="antidumping2"
@@ -67,6 +79,9 @@ const Recursos = props => {
                         parrafoDos={props.data.recursos.antidumpigEUA.p1}
                         parrafoTres={props.data.recursos.antidumpigEUA.p2}
                         parrafoCuatro={props.data.recursos.antidumpigEUA.p3}
+                        href="https://www.commerce.gov/tags/antidumping-ad"
+                        href2="https://www.usitc.gov/"
+                        href3=" https://www.federalregister.gov/"
                     />
                     <HeaderTitle
                         id="estadisticas-comerciales"
@@ -78,6 +93,9 @@ const Recursos = props => {
                         parrafoDos={props.data.recursos.estadistica.p1}
                         parrafoTres={props.data.recursos.estadistica.p2}
                         parrafoCuatro={props.data.recursos.estadistica.p3}
+                        href="http://www.siicex.gob.mx/portalSiicex/SICETECA/Decretos/Arancel/Tigie/tigiex.htm"
+                        href2="http://www.economia-snci.gob.mx/"
+                        href3="http://www.intracen.org/itc/market-info-tools/trade-statistics/"
                     />
                     <HeaderTitle
                         id="otros"
@@ -89,6 +107,8 @@ const Recursos = props => {
                         // parrafo={props.data.industrias.agropecuario.h1}
                         parrafoDos={props.data.recursos.otros.p1}
                         parrafoTres={props.data.recursos.otros.p2}
+                        href="http://www.beta.inegi.org.mx/app/tigie"
+                        href2="http://worldtradelaw.net"
                     />
 
                 </section>
