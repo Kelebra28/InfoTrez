@@ -9,6 +9,7 @@ import imgSocia from '../../Img/Itziar.png'
 import './Socias.css'
 import '../Pages.css'
 import imgLap from '../../Img/planta.png'
+import cv from '../../assents/cv-itziar.pdf'
 
 const SociasIEMS = props => {
     return (
@@ -41,11 +42,11 @@ const SociasIEMS = props => {
                     <div className="contenedorProfesional flex-column flex-lg-row">
                         <img className="imgSocia" src={imgSocia} alt="" />
                         <div className="contactoProfesional mt-3 mt-lg-0">
-                            <a href="">
+                            <a href="https://www.google.com">
                                 <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
                             </a>
                             <a href="mailto:iem@t-rezconsulting.com">iem@t-rezconsulting.com</a>
-                            <a href="https://si.ua.es/es/documentos/documentacion/pdf-s/mozilla12-pdf.pdf">
+                            <a href={cv} target="_blank">
                                 <FontAwesomeIcon icon={['far', 'file-pdf']} />
                             </a>
                         </div>

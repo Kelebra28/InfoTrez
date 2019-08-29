@@ -6,10 +6,10 @@ const MenuPrin = () => {
     return(
     <main>
         <section className="pleca1">
-            <p>Consultoría financiera: Diferencias</p>
+            <p>En defensa del comercio leal,</p>
         </section>
         <section className="pleca2">
-            <p>entre presupuesto y pronóstico</p>
+            <p>por una competencia equitativa</p>
         </section>
     </main>
     )
