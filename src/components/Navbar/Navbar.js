@@ -1,6 +1,10 @@
+// @ts-nocheck
+
 import React from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+// @ts-ignore
 import Rlogo from '../../assents/logo.png'
+// @ts-ignore
 import Search from '../../assents/search.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './Style.css'
@@ -17,6 +21,8 @@ import {
     DropdownMenu,
     DropdownItem
 } from 'reactstrap';
+import Esp from '../../Lang/Esp.json'
+
 
 
 export default class CustomNav extends React.Component {
@@ -38,16 +44,30 @@ export default class CustomNav extends React.Component {
         this.setState({
             isOpen: true
         });
+
+
+    }
+
+    handleChange = (e) => {
+
+        let wordFilter = e.target.value
+        // console.log('Si funciona');
+        console.log(Esp);
+        console.log(wordFilter);
+        Esp.forEach( word => {
+            console.log("hola");
+        });
     }
 
     render() {
         return (
             <div>
                 <div className="d-block d-md-none" style={{ zIndex: 99999 }}>
+
                     <Navbar style={{ backgroundColor: "#fff" }} light expand="md">
                         <section className="nav-header" style={{ zIndex: 99999 }}>
                             <div className="nav-logo">
-                                <Link to="/"><img src={Rlogo} alt="logo T-REZ" style={{ width: "4em" }} onClick={this.handleClick}/></Link>
+                                <Link to="/"><img src={Rlogo} alt="logo T-REZ" style={{ width: "4em" }} onClick={this.handleClick} /></Link>
                             </div>
                         </section>
                         {/* <NavbarToggler onClick={this.toggle}  style={{zIndex:99999}}/> */}
@@ -95,7 +115,7 @@ export default class CustomNav extends React.Component {
                         </section>
                         <section className="buscarylinks">
                             <article className="groupinput">
-                                <input type="text" />
+                                <input type="text" onChange={this.handleChange} />
                                 <img src={Search} alt="img search" />
                             </article>
                             <a href="https://es.linkedin.com/company/t-rezconsulting" target="_blank">
