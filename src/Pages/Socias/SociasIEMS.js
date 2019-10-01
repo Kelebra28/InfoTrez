@@ -13,7 +13,7 @@ import cv from '../../assents/cv-itziar.pdf'
 
 const SociasIEMS = props => {
     return (
-        <section className="preventMain"> 
+        <section className="preventMain">
             <div className="page main">
                 <MenuIzq
                     MenuPq1="/Socias/LERT"
@@ -29,19 +29,16 @@ const SociasIEMS = props => {
                     imgMenuIzq={imgLap}
                 />
 
-                <section className="seccionCentro">
+                <section className="seccionCentro d-flex flex-column flex-lg-row">
 
                     <div className="d-block d-lg-none mb-3">
                         <Link className="item1" to="/Socias/LERT">Luz Elena Reyes De la Torre</Link>
                         <Link className="item1" to="/Socias/IEMS">Itziar Esparza Mejía</Link>
                     </div>
 
-                    <HeaderTitle data={props.data}
-                        title={props.data.socias.nombres.itzia}
-                    />
-                    <div className="contenedorProfesional flex-column flex-lg-row">
-                        {/* <img className="imgSocia" src={imgSocia} alt="" /> */}
-                        <div className="contactoProfesional mt-3 mt-lg-0">
+                    <div className="contenedorProfesional d-flex flex-column">
+                        <img className="imgSocia" src={imgSocia} alt="Itziar Ezparza Mejia" />
+                        <div className="contactoProfesional mt-3">
                             <a href="">
                                 <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
                             </a>
@@ -51,17 +48,24 @@ const SociasIEMS = props => {
                             </a>
                         </div>
                     </div>
-                    <Contenido data={props.data}
-                        // parrafo={props.data.socias.Itziar.title}
-                        parrafoDos={props.data.socias.Itziar.p1}
-                        parrafoTres={props.data.socias.Itziar.p2}
-                        parrafoCuatro={props.data.socias.Itziar.p3}
-                        parrafoCinco={props.data.socias.Itziar.p4}
-                        parrafoSeis={props.data.socias.Itziar.p5}
-                    // parrafoSiete={props.data.socias.Itziar.p1}
-                    // parrafoOcho={props.data.socias.Itziar.p1}
-                    // parrafoNueve={props.data.socias.Itziar.p1}
-                    />
+
+                    <div className="p-0 px-lg-3">
+                        <HeaderTitle data={props.data}
+                            title={props.data.socias.nombres.itzia}
+                        />
+                        <Contenido data={props.data}
+                            // parrafo={props.data.socias.Itziar.title}
+                            parrafoDos={props.data.socias.Itziar.p1}
+                            parrafoTres={props.data.socias.Itziar.p2}
+                            parrafoCuatro={props.data.socias.Itziar.p3}
+                            parrafoCinco={props.data.socias.Itziar.p4}
+                            parrafoSeis={props.data.socias.Itziar.p5}
+                        // parrafoSiete={props.data.socias.Itziar.p1}
+                        // parrafoOcho={props.data.socias.Itziar.p1}
+                        // parrafoNueve={props.data.socias.Itziar.p1}
+                        />
+                    </div>
+
                 </section>
                 <ContenedorDer />
             </div>

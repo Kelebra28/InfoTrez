@@ -50,6 +50,7 @@ const Recursos = props => {
                         href2="https://www.wto.org/spanish/docs_s/legal_s/25-safeg_s.htm"
                         href3="https://www.wto.org/spanish/docs_s/legal_s/24-scm_01_s.htm"
                         href4="https://www.wto.org/spanish/tratop_s/dispu_s/dispu_s.htm"
+                        Underline="underline"
                     />
                     <HeaderTitle
                         id="antidumping"
@@ -68,6 +69,7 @@ const Recursos = props => {
                         href3=" https://www.dof.gob.mx/"
                         href4=" https://www.gob.mx/se/acciones-y-programas/industria-y-comercio-unidad-de-practicas-comerciales-internacionales-upci"
                         href5="http://www.ccpci.economia.gob.mx/swb/es/ccpci"
+                        Underline="underline"
                     />
                     <HeaderTitle
                         id="antidumping2"
@@ -82,6 +84,7 @@ const Recursos = props => {
                         href="https://www.commerce.gov/tags/antidumping-ad"
                         href2="https://www.usitc.gov/"
                         href3=" https://www.federalregister.gov/"
+                        Underline="underline"
                     />
                     <HeaderTitle
                         id="estadisticas-comerciales"
@@ -96,6 +99,7 @@ const Recursos = props => {
                         href="http://www.siicex.gob.mx/portalSiicex/SICETECA/Decretos/Arancel/Tigie/tigiex.htm"
                         href2="http://www.economia-snci.gob.mx/"
                         href3="http://www.intracen.org/itc/market-info-tools/trade-statistics/"
+                        Underline="underline"
                     />
                     <HeaderTitle
                         id="otros"
@@ -109,6 +113,7 @@ const Recursos = props => {
                         parrafoTres={props.data.recursos.otros.p2}
                         href="http://www.beta.inegi.org.mx/app/tigie"
                         href2="http://worldtradelaw.net"
+                        Underline="underline"
                     />
 
                 </section>

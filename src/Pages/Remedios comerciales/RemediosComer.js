@@ -3,7 +3,7 @@ import Contenido from '../../components/Contenido/contenido';
 import MenuIzq from '../../components/MenuIzq/MenuIzq';
 import HeaderTitle from '../../components/Header/Header'
 import ContenedorDer from '../../components/contenedorDer/contenedorDer';
-
+import imgLap from '../../Img/remedios.png'
 
 const RemediosComerciales = props => {
     return (
@@ -17,10 +17,10 @@ const RemediosComerciales = props => {
                         contenidoP3={props.data.remedios.subvenciones.h1}
                         contenidoP4={props.data.remedios.salvaguardias.h1}
                         contenidoP5={props.data.remedios.examenes.h1}
-                        contenidoP6={props.data.remedios.reviciones.h1}
+                        contenidoP6={props.data.remedios.reviciones.h1} 
                         contenidoP7={props.data.remedios.elusion.h1}
                         contenidoP8={props.data.remedios.cobertura.h1}
-
+                        imgMenuIzq={imgLap}
                     />
                     <section className="seccionCentro">
                         <HeaderTitle data={props.data}

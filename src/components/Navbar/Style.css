@@ -122,7 +122,8 @@ body {
 .linksSecundarios a {
     color: #631514;
     text-decoration: none;
-    font-size: 12pt;
+    font-size: 90%;
+    font-weight: bold;
 }
 
 .linksSecundarios a:hover {

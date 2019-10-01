@@ -4,7 +4,7 @@ import MenuIzq from '../../components/MenuIzq/MenuIzq'
 import '../Pages.css'
 import ContenedorDer from '../../components/contenedorDer/contenedorDer';
 import Contenido from '../../components/Contenido/contenido';
-import imgLap from '../../Img/planta.png'
+import imgLap from '../../Img/remedios.png'
 
 
 const RemediosCo = props => {

@@ -168,7 +168,8 @@ body {
   .linksSecundarios a {
       color: #631514;
       text-decoration: none;
-      font-size: 7pt;
+      font-size: 10px;
+      font-weight: bold;
   }
   .buscarylinks {
       /* border: solid 1px; */
