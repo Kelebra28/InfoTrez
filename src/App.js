@@ -95,7 +95,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { far } from '@fortawesome/free-regular-svg-icons'
 import { faCheckSquare, faBlog } from '@fortawesome/free-solid-svg-icons'
 
-
+import Prueba from './Pages/Prueba'
 
 library.add(fab, far, faCheckSquare, faBlog)
 
@@ -204,6 +204,8 @@ class App extends Component {
               <Route exact path="/Recursos/Otros-Sitios" component={() => <Otros data={this.state.data} />}/>
               {/* Contacto */}
               <Route exact path="/Contacto/" component={() => <Contacto data={this.state.data} />}/>
+              {/* Prueba */}
+              <Route exact path="/Prueba/" component={() => <Prueba data={this.state.data} />}/>
       <Footer/>
       <FooterResponsive/>
   </Router>

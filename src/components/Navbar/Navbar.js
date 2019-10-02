@@ -48,17 +48,6 @@ export default class CustomNav extends React.Component {
 
     }
 
-    handleChange = (e) => {
-
-        let wordFilter = e.target.value
-        // console.log('Si funciona');
-        console.log(Esp);
-        console.log(wordFilter);
-        Esp.forEach( word => {
-            console.log("hola");
-        });
-    }
-
     render() {
         return (
             <div>
