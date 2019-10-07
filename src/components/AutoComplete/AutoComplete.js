@@ -5,7 +5,7 @@ export default class AutoComplete extends React.Component {
     constructor(props) {
         super(props);
         this.items = [
-            <a>Area 1</a>,
+            'Area 1',
             'Area 2',
             'Area 3',
             'Area 4',
@@ -18,7 +18,7 @@ export default class AutoComplete extends React.Component {
         };
     }
 
-    onTextChanged = () => {
+    onTextChanged = (e) => {
         const value = e.target.value;
         let suggestions = [];
         if (value.legth > 0) {

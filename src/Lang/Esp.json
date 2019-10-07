@@ -51,7 +51,8 @@
         "p5": "• Es la Panelista de nacionalidad mexicana con más participaciones en paneles de solución de controversias comerciales en la OMC.",
         "p6": "• Ha prestado servicios de asistencia técnica sobre la implementación y aplicación de los Acuerdos Antidumping, de Salvaguardas y sobre el Acuerdo de Subvenciones y Medidas Compensatorias a los gobiernos de América Latina.",
         "p7": "• Es miembro del Consejo Consultivo de Prácticas Comerciales Internacionales.",
-        "p8": "• En abril de 2016 fue nombrada Miembro del Grupo Permanente de Expertos de la OMC en materia de Subvenciones y Derechos Compensatorios por el periodo 2016-2021."
+        "p8": "• En abril de 2016 fue nombrada Miembro del Grupo Permanente de Expertos de la OMC en materia de Subvenciones y Derechos Compensatorios por el periodo 2016-2021.",
+        "url": ""
     },
     "servicos": {
         "title": "Servicios",
@@ -61,7 +62,8 @@
         "p3": "Litigios Antidumping",
         "p4": "Economía-Litigios",
         "p5": "Monitoreo Estratégico",
-        "p6": "Mx-USA Trade Planning"
+        "p6": "Mx-USA Trade Planning",
+        "url": "/servicios"
     },
     "remedios": {
         "title": "Remedios Comerciales",
@@ -69,64 +71,78 @@
             "h1": "Antidumping",
             "p1": "T-REZ se ha especializado en investigaciones promovidas por la industria nacional para defender una competencia leal y asegurar una cancha pareja.",
             "p2": "Frente a una competencia internacional, presumiblemente desleal, T-REZ realiza las investigaciones previas y estudios de factibilidad con la metodología de la legislación vigente nacional e internacional, para determinar si el caso tiene méritos y si tiene buenas probabilidades de éxito; es decir,  de que al final del procedimiento se impongan cuotas compensatorias a las importaciones desleales.",
-            "p3": "T-REZ representa a la rama de producción nacional durante el procedimiento y elabora todos los estudios económicos  y escritos legales para la defensa de la industria."
+            "p3": "T-REZ representa a la rama de producción nacional durante el procedimiento y elabora todos los estudios económicos  y escritos legales para la defensa de la industria.",
+            "url": "/Servicios/RemediosC"
         },
         "subvenciones": {
             "h1": "Anti-subvenciones",
             "p1": "Una de las socias fundadoras es Miembros del Grupo Permanente de Expertos de la OMC en materia de Subvenciones y Derechos Compensatorios;  a nivel nacional representó a la industria mexicana en uno de los pocos casos en contra de subvenciones en México, específicamente en contra de subvenciones agropecuarias otorgadas por la Comisión Europea a  España e Italia.",
-            "p2": "T-REZ analiza la existencia de subvenciones, así como si estas son compensables y, en su caso, elabora los documentos económicos y legales para defender y representar a la industria nacional en el procedimiento."
+            "p2": "T-REZ analiza la existencia de subvenciones, así como si estas son compensables y, en su caso, elabora los documentos económicos y legales para defender y representar a la industria nacional en el procedimiento.",
+            "url": "/Servicios/RemediosC"
         },
         "salvaguardias": {
             "h1": "Salvaguardias",
             "p1": "Cuando existen incrementos significativos de las importaciones que causan o amenazan causar un daño grave a la industria mexicana, a pesar de que no exista práctica desleal, T-REZ realiza los estudios y argumentos necesarios para solicitar medidas de salvaguarda en forma de incrementos temporales de aranceles o establecimiento de cupos para que la industria nacional pueda realizar los programas de ajuste necesarios para mejor sus niveles competitivos.",
-            "p2": "Una de las socias fundadoras dirigió los estudios y representó al sector avícola nacional en la única salvaguarda bilateral al amparo del TLCAN realizada en México, que culminó con una exitosa negociación entre los sectores de los dos países y con medidas que se aplicaron durante 5 años."
+            "p2": "Una de las socias fundadoras dirigió los estudios y representó al sector avícola nacional en la única salvaguarda bilateral al amparo del TLCAN realizada en México, que culminó con una exitosa negociación entre los sectores de los dos países y con medidas que se aplicaron durante 5 años.",
+            "url": "/Servicios/RemediosC"
         },
         "examenes": {
             "h1": "Exámenes de vigencia",
             "p1": "Previo a la conclusión de los 5 años de vigencia de las cuotas compensatorias, existe un procedimiento que permite, en caso de cumplirse con los supuestos previstos le ley, prorrogar dichas cuotas.",
-            "p2": "Las socias fundadoras han representado exitosamente a diversas industrias nacionales en los exámenes quinquenales."
+            "p2": "Las socias fundadoras han representado exitosamente a diversas industrias nacionales en los exámenes quinquenales.",
+            "url": "/Servicios/RemediosC"
         },
         "reviciones": {
             "h1": "Revisiones anuales",
-            "p1": "T-REZ representa a la industria nacional en los casos en los que un exportador solicita que se revisen sus márgenes de dumping en un periodo más reciente al investigado en el procedimiento original, para lograr que se reduzcan o eliminen las cuotas compensatorias impuestas; por lo que es importante la industria nacional participe y se asegure que se siguen los procedimientos adecuados y se aplican la metodologías pertinentes con el fin de que no se eliminen o reduzcan injustificadamente las cuotas compensatorias. T-REZ se encarga de ésta defensa en nombre de la industria nacional."
+            "p1": "T-REZ representa a la industria nacional en los casos en los que un exportador solicita que se revisen sus márgenes de dumping en un periodo más reciente al investigado en el procedimiento original, para lograr que se reduzcan o eliminen las cuotas compensatorias impuestas; por lo que es importante la industria nacional participe y se asegure que se siguen los procedimientos adecuados y se aplican la metodologías pertinentes con el fin de que no se eliminen o reduzcan injustificadamente las cuotas compensatorias. T-REZ se encarga de ésta defensa en nombre de la industria nacional.",
+            "url": "/Servicios/RemediosC"
         },
         "elusion": {
             "h1": "Anti - elusión ",
-            "p1": "En muchas ocasiones los importadores o exportadores tratan de evitar las cuotas compensatorias impuestas diferenciando ligeramente el producto  que fue objeto de investigación, o importándolo en partes cuando esto es posible. T-REZ representa a los productores nacionales en procedimientos anti-elusión de cuotas para que la Secretaría de Economía extienda las cuotas a dichos productos diferenciados mínimamente o que se importan en partes para evitar pagar las cuotas aplicables."
+            "p1": "En muchas ocasiones los importadores o exportadores tratan de evitar las cuotas compensatorias impuestas diferenciando ligeramente el producto  que fue objeto de investigación, o importándolo en partes cuando esto es posible. T-REZ representa a los productores nacionales en procedimientos anti-elusión de cuotas para que la Secretaría de Economía extienda las cuotas a dichos productos diferenciados mínimamente o que se importan en partes para evitar pagar las cuotas aplicables.",
+            "url": "/Servicios/RemediosC"
         },
         "cobertura": {
             "h1": "Cobertura de producto",
-            "p1": "Cuando algún importador o exportador de mercancía sujeta a cuotas compensatorias inicia un procedimiento solicitando a la autoridad antidumping que se excluyan ciertos productos de la aplicación de la misma, T-REZ asesora a los productores nacionales para asegurar que las autoridades correspondientes no excluyan de la aplicación de la cuota compensatoria algún producto que deba de estar considerado de conformidad con el procedimiento y los hechos que dieron lugar a la aplicación de cuotas."
+            "p1": "Cuando algún importador o exportador de mercancía sujeta a cuotas compensatorias inicia un procedimiento solicitando a la autoridad antidumping que se excluyan ciertos productos de la aplicación de la misma, T-REZ asesora a los productores nacionales para asegurar que las autoridades correspondientes no excluyan de la aplicación de la cuota compensatoria algún producto que deba de estar considerado de conformidad con el procedimiento y los hechos que dieron lugar a la aplicación de cuotas.",
+            "url": "/Servicios/RemediosC"
         }
     },
     "disputas": {
         "title": "Disputas comerciales",
         "panelesTLC": {
             "h1": "Paneles TLC -TMEC",
-            "p1": "T-REZ  ofrece el servicio de representar a las partes en Paneles binacionales T-MEC (antes TLCAN)."
+            "p1": "T-REZ  ofrece el servicio de representar a las partes en Paneles binacionales T-MEC (antes TLCAN).",
+            "url": "/DisputasComerciales"
+            
         },
         "panelesOMC": {
             "h1": "Paneles OMC",
-            "p1": "T-REZ también ofrece sus servicios profesionales para asesorar a gobiernos en la defensa de sus resoluciones en procedimientos de Grupos Especiales en el marco de órgano de solución de controversias de la OMC. Los servicios incluyen la redacción de sus comparecencias y  soporte jurídico con precedentes relevantes para la solución de la controversia."
+            "p1": "T-REZ también ofrece sus servicios profesionales para asesorar a gobiernos en la defensa de sus resoluciones en procedimientos de Grupos Especiales en el marco de órgano de solución de controversias de la OMC. Los servicios incluyen la redacción de sus comparecencias y  soporte jurídico con precedentes relevantes para la solución de la controversia.",
+            "url": "/DisputasComerciales"    
         }
     },
     "litigios": {
         "title": "Litigios Antidumping",
         "recursos": {
             "h1": "Recursos de revocación",
-            "p1": "T-REZ representa a empresas en recursos de revocación ante la Secretaría de Economía contra resoluciones finales emitidas en investigaciones antidumping, exámenes de vigencia o cualquier otro procedimiento de remedios comerciales bajo la Ley de Comercio Exterior."
+            "p1": "T-REZ representa a empresas en recursos de revocación ante la Secretaría de Economía contra resoluciones finales emitidas en investigaciones antidumping, exámenes de vigencia o cualquier otro procedimiento de remedios comerciales bajo la Ley de Comercio Exterior.",
+            "url": "/LitigiosAntidumping/"
         },
         "juicios": {
             "h1": "Juicios de nulidad",
-            "p1": "T-REZ representa a empresas en juicios de nulidad respecto de resoluciones finales antidumping ante Tribunal Federal de Justicia Administrativa."
+            "p1": "T-REZ representa a empresas en juicios de nulidad respecto de resoluciones finales antidumping ante Tribunal Federal de Justicia Administrativa.",
+            "url": "/LitigiosAntidumping/"
         },
         "amparos": {
             "h1": "Amparos",
-            "p1": "T-REZ colabora junto con despachos amparistas en juicios de amparo relacionados con resoluciones finales emitidas por la Secretaría de Economía en materia de remedios comerciales."
+            "p1": "T-REZ colabora junto con despachos amparistas en juicios de amparo relacionados con resoluciones finales emitidas por la Secretaría de Economía en materia de remedios comerciales.",
+            "url": "/LitigiosAntidumping/"
         },
         "peritajes": {
             "h1": "Peritajes",
-            "p1": "T-REZ ofrece servicio de peritajes jurídicos, económicos, que se precisen en procedimiento de remedios comerciales o juicios de nulidad."
+            "p1": "T-REZ ofrece servicio de peritajes jurídicos, económicos, que se precisen en procedimiento de remedios comerciales o juicios de nulidad.",
+            "url": "/LitigiosAntidumping/"
         }
     },
     "economia": {
@@ -136,27 +152,33 @@
             "p2": "Márgenes de dumping",
             "p3": "Daño a la industria",
             "p4": "Cálculo de Subvenciones",
-            "p5": "Verificaciones “in situ”"
+            "p5": "Verificaciones “in situ”",
+            "url": "/EconomiaLitigios/"
         },
         "analisis": {
             "h1": "1. Análisis de importaciones",
-            "p1": "En todos los procedimientos sobre remedios comerciales es necesario un análisis específico y especializado de las operaciones de comercio exterior;  T-REZ ofrece la elaboración de análisis de las importaciones por producto específico, por país, por importador e identifica patrones de precios para apoyar las investigaciones o procedimientos sobre remedios comerciales, o para identificar tendencias de precios y productos de los principales competidores internacionales de la industria nacional."
+            "p1": "En todos los procedimientos sobre remedios comerciales es necesario un análisis específico y especializado de las operaciones de comercio exterior;  T-REZ ofrece la elaboración de análisis de las importaciones por producto específico, por país, por importador e identifica patrones de precios para apoyar las investigaciones o procedimientos sobre remedios comerciales, o para identificar tendencias de precios y productos de los principales competidores internacionales de la industria nacional.",
+            "url": "/EconomiaLitigios/"
         },
         "margenes": {
             "h1": "2. Márgenes de dumping",
-            "p1": "En diversos  casos  T-REZ  podría ofrecer realizar el análisis de precios de los principales productos exportados a México tanto en sus mercados de origen como en sus mercados de exportación para calcular márgenes de dumping que apoyen una investigación en contra de prácticas desleales de comercio internacional."
+            "p1": "En diversos  casos  T-REZ  podría ofrecer realizar el análisis de precios de los principales productos exportados a México tanto en sus mercados de origen como en sus mercados de exportación para calcular márgenes de dumping que apoyen una investigación en contra de prácticas desleales de comercio internacional.",
+            "url": "/EconomiaLitigios/"
         },
         "dano": {
             "h1": "3. Daño a la industria",
-            "p1": "T-REZ cuenta con el personal especializado en realizar los estudios necesarios para determinar la existencia o no de daño o amenaza de daño causados a la industria nacional por la competencia desleal (dumping o subvenciones) de conformidad con la metodología aceptada para tales efectos a nivel nacional o internacional. "
+            "p1": "T-REZ cuenta con el personal especializado en realizar los estudios necesarios para determinar la existencia o no de daño o amenaza de daño causados a la industria nacional por la competencia desleal (dumping o subvenciones) de conformidad con la metodología aceptada para tales efectos a nivel nacional o internacional. ",
+            "url": "/EconomiaLitigios/"
         },
         "calculo": {
             "h1": "4. Cálculo de Subvenciones",
-            "p1": "Cuando una industria nacional presume que  un competidor internacional lo hace en condiciones ventajosas derivadas de los apoyos que le otorga su gobierno, es necesario llevar a cabo un estudio que determine si éstos apoyos existen y si efectivamente afectan los precios de exportación a un país;  T-REZ realiza dichos estudios especializados con la metodología admitida por la Organización Mundial de Comercio y, en su caso, puede asesorar en la solicitud de su eliminación mediante los procedimientos establecidos en las legislaciones nacional e internacional."
+            "p1": "Cuando una industria nacional presume que  un competidor internacional lo hace en condiciones ventajosas derivadas de los apoyos que le otorga su gobierno, es necesario llevar a cabo un estudio que determine si éstos apoyos existen y si efectivamente afectan los precios de exportación a un país;  T-REZ realiza dichos estudios especializados con la metodología admitida por la Organización Mundial de Comercio y, en su caso, puede asesorar en la solicitud de su eliminación mediante los procedimientos establecidos en las legislaciones nacional e internacional.",
+            "url": "/EconomiaLitigios/"
         },
         "verificacion": {
             "h1": "5. Verificaciones “in situ”",
-            "p1": "Cuando las empresas nacionales exportadoras son notificadas por las autoridades antidumping competentes, principalmente de los EUA, sobre la realización de una visita de verificación en sus instalaciones, con respecto a la información aportada en un procedimiento antidumping, T-REZ ofrece  sus servicios profesionales especializados en este evento, que implica aspectos económicos, financieros, contables y legales. Capacita a los equipos internos de las compañías, en coordinación con los despachos de abogados estadounidenses, y asesora en la preparación previa de toda la documentación que será verificada por la autoridad."
+            "p1": "Cuando las empresas nacionales exportadoras son notificadas por las autoridades antidumping competentes, principalmente de los EUA, sobre la realización de una visita de verificación en sus instalaciones, con respecto a la información aportada en un procedimiento antidumping, T-REZ ofrece  sus servicios profesionales especializados en este evento, que implica aspectos económicos, financieros, contables y legales. Capacita a los equipos internos de las compañías, en coordinación con los despachos de abogados estadounidenses, y asesora en la preparación previa de toda la documentación que será verificada por la autoridad.",
+            "url": "/EconomiaLitigios/"
         }
     },
     "monitoreos": {
@@ -168,11 +190,13 @@
         "monitoreo": {
             "h1": "Monitoreo de precios",
             "p1": "T-REZ ofrece el servicio de Monitoreo Comercial Estratégico, este consiste en realizar un análisis bimestral o trimestral sobre el comportamiento de los precios y los volúmenes importados de productos específicos de los principales competidores de la industria nacional en el mercado mexicano.",
-            "p2": "Este monitoreo permite anticipar posibles situaciones en la competencia internacional que puedan afectar a  la industria nacional, o simplemente para conocer el posicionamiento de competidores internacionales en el mercado local."
+            "p2": "Este monitoreo permite anticipar posibles situaciones en la competencia internacional que puedan afectar a  la industria nacional, o simplemente para conocer el posicionamiento de competidores internacionales en el mercado local.",
+            "url": "/MonitoreoEstrategico/"
         },
         "alertas": {
             "h1": "Alertas Anti-Dumping",
-            "p1": "El servicio de T-REZ sobre “Alertas dumping” se basa en un modelo que considera diversos parámetros que se obtienen a partir del análisis de los indicadores económicos más relevantes del mercado bajo análisis para determinar en forma anticipada o preventiva la posible ocurrencia de prácticas de comercio internacional en un mercado específico."
+            "p1": "El servicio de T-REZ sobre “Alertas dumping” se basa en un modelo que considera diversos parámetros que se obtienen a partir del análisis de los indicadores económicos más relevantes del mercado bajo análisis para determinar en forma anticipada o preventiva la posible ocurrencia de prácticas de comercio internacional en un mercado específico.",
+            "url": "/MonitoreoEstrategico/"
         }
     },
     "tradepla": {
@@ -180,12 +204,14 @@
         "menu": {
             "p1": "Riesgo antidumping en USA",
             "p2": "Cuestionarios DOC y ITC",
-            "p3": "Verificaciones in situ USDOC"
+            "p3": "Verificaciones in situ USDOC",
+            "url": "/Mx-USA-TradePlanning/"
         },
         "riesgo": {
             "h1": "1. Riesgo antidumping en USA",
             "p1": "Las empresas con presencia importante de sus exportaciones en el mercado norteamericano,  tienen el riesgo de que el gobierno de los EUA inicie investigaciones antidumping o en contra de subvenciones, que pueden concluir en la aplicación de derechos antidumping en sus exportaciones a ese país afectando con ello su acceso a dicho mercado.",
-            "p2": "T-REZ ofrece un servicio especializado que permite analizar, con la metodología aplicable en los EUA, las condiciones en las que se realizan las exportaciones de una empresa nacional a los EUA y si éstas constituyen un riesgo para ser objeto de investigaciones en su contra por el gobierno de los EUA. Es un servicio preventivo y propone cambios en sus políticas de precios y ventas para minimizar el riesgo de casos antidumping en los Estados Unidos de América."
+            "p2": "T-REZ ofrece un servicio especializado que permite analizar, con la metodología aplicable en los EUA, las condiciones en las que se realizan las exportaciones de una empresa nacional a los EUA y si éstas constituyen un riesgo para ser objeto de investigaciones en su contra por el gobierno de los EUA. Es un servicio preventivo y propone cambios en sus políticas de precios y ventas para minimizar el riesgo de casos antidumping en los Estados Unidos de América.",
+            "url": "/Mx-USA-TradePlanning/"
         },
         "cuestionarios": {
             "h1": "2. Cuestionarios DOC y ITC",
@@ -193,7 +219,8 @@
         },
         "verificaciones": {
             "h1": "Verificaciones in situ USDOC",
-            "p1": "T-REZ ofrece  sus servicios profesionales especializados en este evento que implica aspectos económicos, financieros, contables y legales. Capacita a los equipos internos de las compañías, en coordinación con los despachos de abogados estadounidenses, y asesora en la preparación previa de toda la documentación que será verificada por el Departamento de Comercio de los EUA (USDOC)."
+            "p1": "T-REZ ofrece  sus servicios profesionales especializados en este evento que implica aspectos económicos, financieros, contables y legales. Capacita a los equipos internos de las compañías, en coordinación con los despachos de abogados estadounidenses, y asesora en la preparación previa de toda la documentación que será verificada por el Departamento de Comercio de los EUA (USDOC).",
+            "url": "/Mx-USA-TradePlanning/"
         }
     },
     "industrias": {
