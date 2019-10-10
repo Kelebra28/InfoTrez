@@ -1,5 +1,6 @@
 import React from 'react';
 import Autosuggest from 'react-autosuggest';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 
 const languages = [
@@ -130,7 +131,8 @@ const getSuggestionValue = suggestion => suggestion.area;
 // Use your imagination to render suggestions.
 const renderSuggestion = suggestion => (
   <div>
-    {suggestion.area}
+    <Link to = {suggestion.url}>{suggestion.area}</Link>
+
   </div>
 );
 
