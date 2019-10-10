@@ -185,7 +185,8 @@
         "title": "Monitoreos Estrategicos",
         "menu": {
             "p1": "Monitoreo de precios",
-            "p2": "Alertas Dumping"
+            "p2": "Alertas Dumping",
+            "url": "/MonitoreoEstrategico/"
         },
         "monitoreo": {
             "h1": "Monitoreo de precios",

@@ -21,7 +21,7 @@ import {
     DropdownMenu,
     DropdownItem
 } from 'reactstrap';
-import Esp from '../../Lang/Esp.json'
+import AutoComplete from '../AutoComplete/AutoComplete';
 
 
 
@@ -104,7 +104,7 @@ export default class CustomNav extends React.Component {
                         </section>
                         <section className="buscarylinks">
                             <article className="groupinput">
-                                <input type="text" onChange={this.handleChange} />
+                               <AutoComplete/>
                                 <img src={Search} alt="img search" />
                             </article>
                             <a href="https://es.linkedin.com/company/t-rezconsulting" target="_blank">
