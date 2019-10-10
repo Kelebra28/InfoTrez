@@ -175,7 +175,7 @@ class AutoComplete extends React.Component {
 
     // Autosuggest will pass through all these props to the input.
     const inputProps = {
-      placeholder: 'Type a programming language',
+      placeholder: 'Buscador',
       value,
       onChange: this.onChange
     };
