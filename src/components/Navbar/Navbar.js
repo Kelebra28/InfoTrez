@@ -105,7 +105,7 @@ export default class CustomNav extends React.Component {
                         <section className="buscarylinks">
                             <article className="groupinput">
                                <AutoComplete/>
-                                <img src={Search} alt="img search" />
+                                {/* <img src={Search} alt="img search" style={{zIndex: "999"}}/> */}
                             </article>
                             <a href="https://es.linkedin.com/company/t-rezconsulting" target="_blank">
                                 <FontAwesomeIcon icon={['fab', 'linkedin-in']} size="2x" />
