@@ -21,7 +21,7 @@ import {
     DropdownMenu,
     DropdownItem
 } from 'reactstrap';
-import Esp from '../../Lang/Esp.json'
+import AutoComplete from '../AutoComplete/AutoComplete';
 
 
 
@@ -46,17 +46,6 @@ export default class CustomNav extends React.Component {
         });
 
 
-    }
-
-    handleChange = (e) => {
-
-        let wordFilter = e.target.value
-        // console.log('Si funciona');
-        console.log(Esp);
-        console.log(wordFilter);
-        Esp.forEach( word => {
-            console.log("hola");
-        });
     }
 
     render() {
@@ -115,8 +104,8 @@ export default class CustomNav extends React.Component {
                         </section>
                         <section className="buscarylinks">
                             <article className="groupinput">
-                                <input type="text" onChange={this.handleChange} />
-                                <img src={Search} alt="img search" />
+                               <AutoComplete/>
+                                {/* <img src={Search} alt="img search" style={{zIndex: "999"}}/> */}
                             </article>
                             <a href="https://es.linkedin.com/company/t-rezconsulting" target="_blank">
                                 <FontAwesomeIcon icon={['fab', 'linkedin-in']} size="2x" />
