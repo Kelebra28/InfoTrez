@@ -36,13 +36,14 @@ const SociasLert = props => {
                     <div className="contenedorProfesional d-flex flex-column">
                         <img className="imgSocia" src={imgSocia} alt="" />
                         <div className="contactoProfesional mt-3">
-                            <a href="">
+                            {/* <a href="">
                                 <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
-                            </a>
-                            <a href="mailto:ler@t-rezconsulting.com">ler@t-rezconsulting.com</a>
-                            <a href={cv} target="_blank">
+                            </a> */}
+                            <a href={cv} target="_blank"  style={{fontSize:"1.5em"}}>
                                 <FontAwesomeIcon icon={['far', 'file-pdf']} />
                             </a>
+                            <p>52 (55) 9171 1052</p>
+                            <a href="mailto:ler@t-rezconsulting.com">ler@t-rezconsulting.com</a>
                         </div>
                     </div>
                     <div className="p-0 px-lg-3">
@@ -61,6 +62,7 @@ const SociasLert = props => {
                             parrafoSiete={props.data.socias.Luz.p7}
                             parrafoOcho={props.data.socias.Luz.p8}
                         // parrafoNueve={props.data.socias.Luz.p1}
+                        font1="600"
                         />
                     </div>
 

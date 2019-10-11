@@ -3,9 +3,9 @@ import './Style.css'
 const Contenido = props => {
     return (
         <div className="contenido">
-            <p>{props.parrafo}</p>
+            <p style={{fontWeight: props.font1}}>{props.parrafo}</p>
             <div className={props.marginUs}>
-                <a href={props.href}  style={{color: "#000", textDecoration: props.Underline}} target="_blank"> <p className={props.classUs}>{props.parrafoDos}</p></a> 
+                <a href={props.href}  style={{color: "#000", textDecoration: props.Underline, fontWeight: props.font}} target="_blank"> <p className={props.classUs}>{props.parrafoDos}</p></a> 
                 <a href={props.href2} style={{color: "#000" , textDecoration: props.Underline}} target="_blank"><p className={props.displayUs}>{props.parrafoTres}</p></a> 
             </div>
             <div className={props.marginUs}>

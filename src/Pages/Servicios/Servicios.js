@@ -3,7 +3,7 @@ import MenuIzq from '../../components/MenuIzq2/MenuIzq'
 import HeaderTitle from '../../components/Header/Header'
 import '../Pages.css'
 import ContenedorDer from '../../components/contenedorDer/contenedorDer';
-import imgPlanta from '../../Img/Servicios.png'
+import imgPlanta from '../../Img/MONITOREO-ESTRATEGICO.png'
 import CollapseCustom from '../../components/Collapse/collapse';
 
 const Servicios = props => {

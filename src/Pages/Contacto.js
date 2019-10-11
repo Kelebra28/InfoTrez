@@ -3,7 +3,7 @@ import Contenido from '../components/Contenido/contenido';
 import './Pages.css'
 import imgContacto from '../Img/imgContacto.png'
 
-const Contacto = props => {
+const Contacto = props => { 
     return (
         <section className="preventMain">
             <div className="page mainContact">

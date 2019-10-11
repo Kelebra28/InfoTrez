@@ -4,7 +4,8 @@ import Contenido from '../../components/Contenido/contenido';
 import './styles.css'
 import MenuIzq from '../../components/MenuIzq/MenuIzq';
 import ContenedorDer from '../../components/contenedorDer/contenedorDer';
-import imgPlanta from '../../Img/Nosotros.png'
+import imgPlanta from '../../Img/mundo.png'
+import nosotros from '../../Img/imgContacto.png'
 
 const Nosotros = props => {
     return (
@@ -20,6 +21,7 @@ const Nosotros = props => {
                     display7="none"
                     display8="none"
                     imgMenuIzq={imgPlanta}
+                    imgHeight="95%"
                 />
                 <section className="seccionCentro">
                     <HeaderTitle
@@ -40,6 +42,7 @@ const Nosotros = props => {
                     // parrafoOcho={props.data.socias.Itziar.p1}
                     // parrafoNueve={props.data.socias.Itziar.p1}
                     />
+                    <img style={{width: "100%"}} src={nosotros} alt=""/>
                 </section>
                 <ContenedorDer />
             </div>

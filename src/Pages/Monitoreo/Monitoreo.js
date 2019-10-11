@@ -3,7 +3,7 @@ import Contenido from '../../components/Contenido/contenido';
 import MenuIzq from '../../components/MenuIzq/MenuIzq'
 import HeaderTitle from '../../components/Header/Header'
 import ContenedorDer from '../../components/contenedorDer/contenedorDer';
-import imgLap from '../../Img/MONITOREO-ESTRATEGICO.png'
+import imgLap from '../../Img/economia.png'
 
 
 const Monitoreo = props => {

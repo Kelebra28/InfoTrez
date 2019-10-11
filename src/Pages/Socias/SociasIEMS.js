@@ -39,13 +39,14 @@ const SociasIEMS = props => {
                     <div className="contenedorProfesional d-flex flex-column">
                         <img className="imgSocia" src={imgSocia} alt="Itziar Ezparza Mejia" />
                         <div className="contactoProfesional mt-3">
-                            <a href="">
+                            {/* <a href="">
                                 <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
-                            </a>
-                            <a href="mailto:iem@t-rezconsulting.com">iem@t-rezconsulting.com</a>
-                            <a href={cv} target="_blank">
+                            </a> */}
+                            <a href={cv} target="_blank" style={{fontSize:"1.5em"}}>
                                 <FontAwesomeIcon icon={['far', 'file-pdf']} />
                             </a>
+                            <p>52 (55) 9171 1052</p>
+                            <a href="mailto:iem@t-rezconsulting.com">iem@t-rezconsulting.com</a>
                         </div>
                     </div>
 
@@ -63,6 +64,7 @@ const SociasIEMS = props => {
                         // parrafoSiete={props.data.socias.Itziar.p1}
                         // parrafoOcho={props.data.socias.Itziar.p1}
                         // parrafoNueve={props.data.socias.Itziar.p1}
+                        font="600"
                         />
                     </div>
 

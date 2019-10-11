@@ -136,7 +136,7 @@ export default class CustomNav extends React.Component {
                                 <Link to="/DisputasComerciales">Disputas Comerciales</Link>
                                 <Link to="/LitigiosAntidumping/">Litigios Antidumping</Link>
                                 <Link to="/EconomiaLitigios/">Economía-Litigios</Link>
-                                <Link to="/MonitoreoEstrategico/">Monitoreo Estratégico</Link>
+                                <Link to="/MonitoreoEstrategico/">Estudios Económicos</Link>
                                 <Link to="/Mx-USA-TradePlanning/">Mx-USA Trade Planning</Link>
                             </article>
                         </section>
