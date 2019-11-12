@@ -20,7 +20,22 @@ main {
     /* border: solid 1px red; */
     width: 55%;
     height: 4em;
-    background-color: #858585d2;
+    background-color: #858585;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#858585', endColorstr='#858585');
+     /* works for IE 5+. */
+     filter:alpha(opacity=30); 
+
+     /* works for IE 8. */
+     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+ 
+     /* works for old school versions of the Mozilla browsers like Netscape Navigator. */
+     -moz-opacity:0.8; 
+ 
+     /* This is for old versions of Safari (1.x) with KHTML rendering engine */
+     -khtml-opacity: 0.8; 
+ 
+     /* This is the "most important" one because it's the current standard in CSS. This will work in most versions of Firefox, Safari, and Opera. */  
+     opacity: 0.8; 
     color: white;
     display: flex;
     justify-content: flex-end;
@@ -44,7 +59,22 @@ main {
     /* border: solid 1px red; */
     width: 50%;
     height: 5em;
-    background-color: #858585d2;
+    background-color: #858585;
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#858585', endColorstr='#858585');
+     /* works for IE 5+. */
+     filter:alpha(opacity=30); 
+
+     /* works for IE 8. */
+     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=30)";
+ 
+     /* works for old school versions of the Mozilla browsers like Netscape Navigator. */
+     -moz-opacity:0.8; 
+ 
+     /* This is for old versions of Safari (1.x) with KHTML rendering engine */
+     -khtml-opacity: 0.8; 
+ 
+     /* This is the "most important" one because it's the current standard in CSS. This will work in most versions of Firefox, Safari, and Opera. */  
+     opacity: 0.8; 
     color: white;
     font-size: 80%;
     display: flex;

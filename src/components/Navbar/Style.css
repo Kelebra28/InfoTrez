@@ -34,9 +34,6 @@ body {
         }
 }
 
-.nav{
-    animation: righttoleft 1s forwards 0s linear;
-}
 
 .nav>.nav-header {
     /* border: solid 1px blue; */

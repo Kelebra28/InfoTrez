@@ -42,7 +42,7 @@ const SociasLert = props => {
                             <a href={cv} target="_blank"  style={{fontSize:"1.5em"}}>
                                 <FontAwesomeIcon icon={['far', 'file-pdf']} />
                             </a>
-                            <p>52 (55) 9171 1052</p>
+                            <p>(55) 9171 1047</p>
                             <a href="mailto:ler@t-rezconsulting.com">ler@t-rezconsulting.com</a>
                         </div>
                     </div>

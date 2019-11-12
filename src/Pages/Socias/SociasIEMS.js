@@ -9,7 +9,7 @@ import imgSocia from '../../Img/Itziar.png'
 import './Socias.css'
 import '../Pages.css'
 import imgLap from '../../Img/planta.png'
-import cv from '../../assents/cv-itziar.pdf'
+import cv from '../../assents/cv-itziar.pdf' 
 
 const SociasIEMS = props => {
     return (
@@ -45,7 +45,7 @@ const SociasIEMS = props => {
                             <a href={cv} target="_blank" style={{fontSize:"1.5em"}}>
                                 <FontAwesomeIcon icon={['far', 'file-pdf']} />
                             </a>
-                            <p>52 (55) 9171 1052</p>
+                            <p>(55) 9171 1047</p>
                             <a href="mailto:iem@t-rezconsulting.com">iem@t-rezconsulting.com</a>
                         </div>
                     </div>

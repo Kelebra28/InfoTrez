@@ -201,7 +201,7 @@
     }
 
     .pleca1 {
-        width: 80%;
+        width: 85%;
     }
 
     .pleca2 {
@@ -227,6 +227,7 @@
         height: 18em;
         margin-top: 1em;
         font-size: 13px;
+        width: 100% !important;
     }
     .designedby {
         width: 100%;
@@ -264,7 +265,7 @@
     }
 }
 
-@media only screen and (max-device-width: 1024px) and (min-device-width: 768px) {
+@media only screen and (max-device-width: 1024px) and (min-device-width: 700px) {
     .nav>.nav-links {
         /* border: solid 1px purple; */
         width: 86%;
@@ -313,5 +314,45 @@
         display: flex;
         text-align: center;
     }
+
+    .nav>.nav-header {
+        top: 5em;
+    }
     
+    .nav>.nav-header> .nav-logo a img{
+        width: 70px;
+        padding-left: 15px;
+    }
+
+    .pleca1 p {
+        font-size: 1.5em;
+    }
+
+    .pleca2 p {
+        font-size: 1.5em;
+    }
+
+    .linksPrincipales {
+        width: 80%;
+        justify-content: space-around;
+    }
+
+    .linksSecundarios {
+        /* border: solid 1px orange; */
+        width: 95%;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+        justify-content: space-a;
+    }
+
+    .linksSecundarios a{
+        font-size: 70%;
+    }
+
+    .buscarylinks {
+        right: 36px;
+    }
 }
+

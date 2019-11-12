@@ -1,3 +1,4 @@
+import ReactGA from 'react-ga';
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom'
 import {BrowserRouter as Router,Route} from 'react-router-dom'
@@ -99,6 +100,12 @@ import { faCheckSquare, faBlog } from '@fortawesome/free-solid-svg-icons'
 
 library.add(fab, far, faCheckSquare, faBlog)
 
+function initializeReactGA() {
+  ReactGA.initialize('UA-150212502-1');
+  ReactGA.pageview('/');
+}
+
+initializeReactGA()
 
 
 const dataEsp = Esp

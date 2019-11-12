@@ -3,7 +3,7 @@ import Contenido from '../../components/Contenido/contenido';
 import HeaderTitle from '../../components/Header/Header'
 import MenuIzq from '../../components/MenuIzq/MenuIzq'
 import ContenedorDer from '../../components/contenedorDer/contenedorDer';
-import imgPlanta from '../../Img/recursos.png'
+import imgPlanta from '../../Img/Industries.png'
 
 const Recursos = props => {
     return (
@@ -27,7 +27,7 @@ const Recursos = props => {
                     contenidoP5={props.data.recursos.menu.p5}
                     display6="none"
                     display7="none"
-                    display8="none"
+                    display8="none" 
                     imgMenuIzq={imgPlanta}
                 />
                 <section className="seccionCentro">

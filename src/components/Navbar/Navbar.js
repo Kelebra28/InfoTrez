@@ -56,7 +56,7 @@ export default class CustomNav extends React.Component {
                     <Navbar style={{ backgroundColor: "#fff" }} light expand="md">
                         <section className="nav-header" style={{ zIndex: 99999 }}>
                             <div className="nav-logo">
-                                <Link to="/"><img src={Rlogo} alt="logo T-REZ" style={{ width: "4em" }} onClick={this.handleClick} /></Link>
+                                <Link to="/"><img src={Rlogo} className="d-block d-sm-none" alt="logo T-REZ" style={{ width: "4em" }} onClick={this.handleClick} /></Link>
                             </div>
                         </section>
                         {/* <NavbarToggler onClick={this.toggle}  style={{zIndex:99999}}/> */}
@@ -81,7 +81,7 @@ export default class CustomNav extends React.Component {
                     </Navbar>
                 </div>
                 <div className="preventHeader">
-                    <header className="nav" >
+                    <header className="nav d-none d-md-block" >
                         {/* <input type="checkbox" id="nav-check" /> */}
                         <section className="nav-header d-none d-md-block">
                             <div className="nav-logo">
@@ -124,8 +124,8 @@ export default class CustomNav extends React.Component {
                                 <Link to="/Servicios/RemediosC">Remedios Comerciales</Link>
                                 <Link to="/DisputasComerciales">Disputas Comerciales</Link>
                                 <Link to="/LitigiosAntidumping/">Litigios Antidumping</Link>
-                                <Link to="/EconomiaLitigios/">Economía-Litigios</Link>
-                                <Link to="/MonitoreoEstrategico/">Estudios Económicos</Link>
+                                <Link to="/EconomiaLitigios/">Estudios Económicos</Link>
+                                <Link to="/MonitoreoEstrategico/">Monitoreo Estratégico</Link>
                                 <Link to="/Mx-USA-TradePlanning/">Mx-USA Trade Planning</Link>
                             </article>
                         </section>
