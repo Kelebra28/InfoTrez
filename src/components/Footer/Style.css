@@ -41,9 +41,9 @@
     color: #fff;
     text-decoration: none;
 }
-footer{
+/* footer{
     animation: righttoleft 1s forwards 0s linear;
-}
+} */
 .footerResponsive {
     display: none;
 }

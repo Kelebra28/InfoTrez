@@ -3,7 +3,7 @@ import Contenido from '../../components/Contenido/contenido';
 import MenuIzq from '../../components/MenuIzq/MenuIzq'
 import ContenedorDer from '../../components/contenedorDer/contenedorDer';
 import HeaderTitle from '../../components/Header/Header';
-import imgLap from '../../Img/conflicto.png'
+import imgLap from '../../Img/disputas.png'
 
 
 const DisputasComerciales = props => {

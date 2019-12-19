@@ -27,9 +27,9 @@
         opacity: 1;
         }
 }
-.seccionIzq{
+/* .seccionIzq{
     animation: ltr 1s forwards 0s ease;
-}
+} */
 .item1 {
     border-bottom: 1px solid #d0d1d3;
     height: 2.5em;

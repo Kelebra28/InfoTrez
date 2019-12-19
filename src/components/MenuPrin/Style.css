@@ -4,7 +4,7 @@ main {
     height: 75vh;
     margin-top: 1em;
     background-image: url('../../assents/mainbg.png');
-    animation: lefttoright 1s forwards 0s linear;
+    /* animation: lefttoright 1s forwards 0s linear; */
     background-size: cover;
     padding-top: 4em;
 }

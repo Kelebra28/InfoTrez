@@ -66,7 +66,7 @@ const MenuIzq = (props) => {
                 />
             </article>
             <article className="contenedorFotoIzq">
-                <img src={props.imgMenuIzq} alt="img menu izq" />
+                <img style={{objectFit: "cover", height: props.height, marginTop: props.margin}} src={props.imgMenuIzq} alt="img menu izq" />
             </article>
         </section>
 

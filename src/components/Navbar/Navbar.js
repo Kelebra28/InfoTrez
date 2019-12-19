@@ -110,7 +110,7 @@ export default class CustomNav extends React.Component {
                             <a href="https://es.linkedin.com/company/t-rezconsulting" target="_blank">
                                 <FontAwesomeIcon icon={['fab', 'linkedin-in']} size="2x" />
                             </a>
-                            <a href="nosEXD">
+                            <a href="https://twitter.com/t_rezconsulting"  target="_blank">
                                 <FontAwesomeIcon icon={['fab', 'twitter']} size="2x" />
                             </a>
                             <Link to="/ComingSoon">

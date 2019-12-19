@@ -4,7 +4,7 @@ import Contenido from '../../components/Contenido/contenido';
 import './styles.css'
 import MenuIzq from '../../components/MenuIzq/MenuIzq';
 import ContenedorDer from '../../components/contenedorDer/contenedorDer';
-import imgPlanta from '../../Img/Nosotros.png'
+import imgPlanta from '../../Img/mundo.png'
 
 const Nosotros = props => {
     return (
@@ -20,6 +20,8 @@ const Nosotros = props => {
                     display7="none"
                     display8="none"
                     imgMenuIzq={imgPlanta}
+                    height="100%"
+                    margin="-4em"
                 />
                 <section className="seccionCentro">
                     <HeaderTitle
