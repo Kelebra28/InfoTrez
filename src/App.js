@@ -129,7 +129,7 @@ class App extends Component {
   render() {
     return (
       <Router> 
-        <Navbar/>
+        <Navbar data={this.state.data} handelChangeIdioma={this.handelChangeIdioma} idioma={this.state.idioma}/>
               {/* Home */}
               <Route exact path= "/" component={() => <Home data={this.state.data}/>}/>
               <Route exact path="/Nosotros/" component={() => <Nosotros data={this.state.data} />}/>

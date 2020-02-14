@@ -15,12 +15,11 @@
         }
     },
     "socias": {
-        "titleS": "Socias",
+        "title": "Socias",
         "nombres": {
             "luz": "Luz Elena Reyes de la Torre",
             "itzia": "Itziar Esparza Mejía"
         },
-        "title": "Socias",
         "Luz": {
             "title": "Luz Elena Reyes de la Torre",
             "p1": "Socia Fundadora de T-REZ Consulting.",
@@ -41,8 +40,8 @@
             "p5": "Asimismo, ha representado a empresas en procedimientos de inmunidad e investigaciones ante la autoridad de competencia, incluyendo respecto de mercados de telecomunicaciones y bienes de consumo."
         }
     },
-    "profecionales": {
-        "main": "II. Profecionales",
+    "profesionales": {
+        "main": "profesionales",
         "title": "Luz Elena Reyes de la Torre",
         "p1": "• Socia Fundadora de T-REZ Consulting.",
         "p2": "• Más de 25 años de experiencia en materia de Remedios Comerciales y controversias comerciales internacionales, principalmente sobre antidumping, subsidios y salvaguardas.",
@@ -54,16 +53,22 @@
         "p8": "• En abril de 2016 fue nombrada Miembro del Grupo Permanente de Expertos de la OMC en materia de Subvenciones y Derechos Compensatorios por el periodo 2016-2021.",
         "url": ""
     },
-    "servicos": {
+    "servicios": {
         "title": "Servicios",
-        "speech": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi libero itaque at voluptatum reprehenderit harum ea, corrupti unde dolorum excepturi cum necessitatibus nulla atque beatae, quisquam provident exercitationem quidem eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste accusantium, nam nobis earum necessitatibus deleniti repudiandae, non hic voluptatibus asperiores vitae totam impedit blanditiis aliquid ex, illum dicta accusamus voluptatum.",
-        "p1": "Remedios Comerciales",
-        "p2": "Disputas Comerciales",
-        "p3": "Litigios Antidumping",
-        "p4": "Economía-Litigios",
-        "p5": "Monitoreo Estratégico",
-        "p6": "Mx-USA Trade Planning",
-        "url": "/servicios"
+        "t1": "Remedios Comerciales",
+        "t2": "Disputas Comerciales",
+        "t3": "Litigios Antidumping",
+        "t4": "Economía-Litigios",
+        "t5": "Monitoreo Estratégico",
+        "t6": "Mx-USA Trade Planning",
+        "p1": "T-REZ Consulting (T-REZ)  es  un  despacho  especializado  en  ”Remedios  Comerciales”  y solución de controversias internacionales. ",
+        "p2": "Ofrecemos a productores nacionales nuestros conocimientos especializados en derecho y economía   internacional   para   asesorarlos   en   todas   las   etapas   de   los   diversos procedimientos  en  contra  de  las  prácticas  de  dumping,  o  en  contra  de  la  competencia internacional   desleal   por   subvenciones   y   apoyos   de   sus   gobiernos   para   ganar inequitativamente   mercados   locales,   así   como   en   la   solución   de   controversias comerciales internacionales.",
+        "p3": "Nuestros servicios incluyen toda la amplia gama de servicios dentro de la especialidad de remedios  comerciales y de los mecanismos de solución de controversias internacionales:",
+        "p4": "- Estudios  de  factibilidad  para  determinar  si  un  caso  de  presuntas  prácticas  desleales tiene  altas  probabilidades  de  éxito,  en  cuyo  caso  realiza  por  completo  los  estudios legales y económicos para integrar solicitudes de investigaciones  antidumping,  sobre subvenciones  o  de  medidas  de  salvaguarda  y  exámenes  quinquenales,  así  como procedimientos de elusión  de cuota y cobertura de producto;",
+        "p5": "- Una vez presentadas las solicitudes formales ante la Secretaría de Economía, T-REZ se encarga  de  la  representación  legal  de  productores  nacionales  en  los  procedimientos legales ante dicha autoridad, o, en su caso, en juicios de nulidad. ",
+        "p6": "- Asesoramos a Gobiernos o productores nacionales en paneles comerciales bilaterales o en paneles ante la OMC. ",
+        "p7": "- Asesoramos  a  exportadores  al  mercado  de  los  EUA  en  denuncias  por  dumping  y realiza asesoría preventiva para una exitosa defensa ante posibles denuncias.",
+        "p8": "En  suma,  el  equipo  de    T-REZ  cuenta  con  experiencia  de  20  años  en  la  defensa  de industrias   nacionales   frente   a   las   prácticas   desleales   de   comercio   internacional, ofreciendo un servicio integral que incluye, además de los servicios legales, servicios de asesoría   económica   y   de   análisis   de   la   situación   financiera   de   la   industria. Adicionalmente,  ofrecemos  asesoría  y  representación  de  partes  en  la  defensa  en  los mecanismos de solución de controversias comerciales, ya sea en TLCAN o en la OMC. "
     },
     "remedios": {
         "title": "Remedios Comerciales",
@@ -308,7 +313,7 @@
         }
     },
     "contacto": {
-        "title": "VII. Contacto",
+        "title": "Contacto",
         "direccion": "Torre Siglum Insurgentes Sur #1898,Piso 14 Despacho 1421 Col. Florida, 01020 CDMX, México.",
         "oficina": "Piso 14 Despacho 1421 Col. Florida",
         "cp": "01020 CDMX, México.",

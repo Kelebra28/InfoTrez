@@ -1,0 +1,222 @@
+﻿@font-face {
+    font-family: 'si';
+    src: url('../fonts/socicon.eot');
+    src: url('../fonts/socicon.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/socicon.woff') format('woff'),
+         url('../fonts/socicon.ttf') format('truetype'),
+         url('../fonts/socicon.svg#icomoonregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+ 
+}
+ 
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family:si;
+        src: url(../fonts/socicon.svg) format(svg);
+    }
+}
+
+.socialIcons {
+    margin: auto;
+    padding-top: 50px;
+    width: 75%;
+}
+.soc {
+    margin:0; 
+    padding:0;
+    list-style:none;
+    margin-left: 10px;
+}
+
+.soc li {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+}
+
+.soc li a {
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;
+
+    -o-transition:.1s;
+    -ms-transition:.1s;
+    -moz-transition:.1s;
+    -webkit-transition:.1s;
+    transition:.1s;
+    -webkit-transition-property: transform;
+    transition-property: transform;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:block;
+    position: relative;
+    z-index: 1;
+    width: 86px;
+    height: 86px;
+    line-height: 86px;
+    font-size: 47px;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    border-radius: 11px;
+    margin-right: 7px;
+    color: #ffffff;
+    background-color: none;
+}
+
+.soc a:hover {
+    z-index: 2;
+    -webkit-transform: translateY(-5px);
+    transform: translateY(-5px);
+}
+
+.soc-icon-last{
+    margin:0 !important;
+}
+
+.soc-twitter {
+    background-color: #4da7de;
+}
+.soc-twitter:before {
+    content:'a';
+}
+.soc-pinterest {
+    background-color: #c92619;
+}
+.soc-pinterest:before {
+    content:'d';
+}
+.soc-youtube {
+    background-color: #e02a20;
+}
+.soc-youtube:before {
+    content:'r';
+}
+.soc-facebook {
+    background-color: #3e5b98;
+}
+.soc-facebook:before {
+    content:'b';
+}
+.soc-soundcloud {
+    background-color: #fe3801;
+}
+.soc-soundcloud:before {
+    content:'n';
+}
+.soc-vine {
+    background-color: #00b389;
+}
+.soc-vine:before {
+    content:'u';
+}
+.soc-yahoo {
+    background-color: #6E2A85;
+}
+.soc-yahoo:before {
+    content:'f';
+}
+.soc-lastfm {
+    background-color: #d41316;
+}
+.soc-lastfm:before {
+    content:'q';
+}
+.soc-dailymotion {
+    background-color: #004e72;
+}
+.soc-dailymotion:before {
+    content:'t';
+}
+.soc-zynga {
+    background-color: #DC0606;
+}
+.soc-zynga:before {
+    content:'W';
+}
+
+.soc-linkedin {
+    background-color: #3371b7;
+}
+.soc-linkedin:before {
+    content:'j';
+}
+
+.soc-email1 {
+    background-color: #578AD6;
+}
+.soc-email1:before {
+    content:'<';
+}
+.soc-apple {
+    background-color: #B9BFC1;
+}
+.soc-apple:before {
+    content:'O';
+}
+.soc-reddit {
+    background-color: #e74a1e;
+}
+.soc-reddit:before {
+    content:'C';
+}
+.soc-spotify {
+    background-color: #7bb342;
+}
+.soc-spotify:before {
+    content:'o';
+}
+.soc-skype {
+    background-color: #28abe3;
+}
+.soc-skype:before {
+    content:'g';
+}
+
+.soc-wikipedia {
+    background-color: #FFFFFF;
+}
+.soc-wikipedia:before {
+    content:'N';
+}
+
+.soc li a.soc-wikipedia {
+    color: #000000;
+}  
+
+
+.soc li a.soc-icloud {
+    background-color: #B9BFC1;
+}
+
+.soc-soundcloud {
+    background-color: #fe3801;
+}
+.soc-soundcloud:before {
+    content:'n';
+}
+.soc-yelp {
+    background-color: #c83218;
+}
+.soc-yelp:before {
+    content:'h';
+}
+
+.soc-tumblr {
+    background-color: #45556c;
+}
+.soc-tumblr:before {
+    content:'z';
+}
+

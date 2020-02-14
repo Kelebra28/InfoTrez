@@ -23,7 +23,10 @@ import {
 } from 'reactstrap';
 import AutoComplete from '../AutoComplete/AutoComplete';
 
-
+const imagesPath = {
+    mx: 'https://cdn.icon-icons.com/icons2/1531/PNG/512/3253493-flag-mexico-icon_106775.png',
+    us: 'https://i.ibb.co/zspqyGS/english.png'
+}
 
 export default class CustomNav extends React.Component {
     constructor(props) {
@@ -40,6 +43,15 @@ export default class CustomNav extends React.Component {
         });
     }
 
+
+    toggleImage = () => {
+        this.setState(state => ({ open: !state.open }))
+        this.props.handelChangeIdioma()
+    }
+
+    getImageName = () => this.state.open ? 'mx' : 'us'
+
+
     handleClick = (e) => {
         this.setState({
             isOpen: true
@@ -49,6 +61,7 @@ export default class CustomNav extends React.Component {
     }
 
     render() {
+        const imageName = this.getImageName();
         return (
             <div>
                 <div className="d-block d-md-none" style={{ zIndex: 99999 }}>
@@ -67,13 +80,14 @@ export default class CustomNav extends React.Component {
                             <Nav className="ml-auto" navbar style={{ zIndex: 99999 }}>
                                 <section className="nav-links" style={{ zIndex: 99999 }}>
                                     <article className="linksPrincipales">
-                                        <Link to="/nosotros" onClick={this.handleClick}>Nosotros</Link>
-                                        <Link to="/Socias/LERT" onClick={this.handleClick}>Socias</Link>
-                                        <Link to="/servicios" onClick={this.handleClick}>Servicios</Link>
-                                        <Link to="/industrias" onClick={this.handleClick}>Industrias</Link>
+                                        <Link to="/nosotros" onClick={this.handleClick}>{this.props.data.nosotros.title}</Link>
+                                        <Link to="/Socias/LERT" onClick={this.handleClick}>{this.props.data.socias.title}</Link>
+                                        <Link to="/servicios" onClick={this.handleClick}>{this.props.data.servicios.title}</Link>
+                                        <Link to="/industrias" onClick={this.handleClick}>{this.props.data.industrias.title}</Link>
                                         {/* <Link to="/presencia">Presencia</Link> */}
-                                        <Link to="/recursos" onClick={this.handleClick}>Recursos</Link>
-                                        <Link to="/contacto" onClick={this.handleClick}>Contacto</Link>
+                                        <Link to="/recursos" onClick={this.handleClick}>{this.props.data.recursos.title}</Link>
+                                        <Link to="/contacto" onClick={this.handleClick}>{this.props.data.contacto.title}</Link>
+                                        <img style={{ width: 25, paddingTop: 10, marginLeft: 8, cursor: "pointer" }} onChange={this.props.handelChangeIdioma} src={imagesPath[imageName]} onClick={this.toggleImage} />
                                     </article>
                                 </section>
                             </Nav>
@@ -93,24 +107,25 @@ export default class CustomNav extends React.Component {
                         </div> */}
                         <section className="nav-links">
                             <article className="linksPrincipales">
-                                <Link to="/nosotros">Nosotros</Link>
-                                <Link to="/Socias/LERT">Socias</Link>
-                                <Link to="/servicios">Servicios</Link>
-                                <Link to="/industrias">Industrias</Link>
+                                <Link to="/nosotros">{this.props.data.nosotros.title}</Link>
+                                <Link to="/Socias/LERT">{this.props.data.socias.title}</Link>
+                                <Link to="/servicios">{this.props.data.servicios.title}</Link>
+                                <Link to="/industrias">{this.props.data.industrias.title}</Link>
                                 {/* <Link to="/presencia">Presencia</Link> */}
-                                <Link to="/recursos">Recursos</Link>
-                                <Link to="/contacto">Contacto</Link>
+                                <Link to="/recursos">{this.props.data.recursos.title}</Link>
+                                <Link to="/contacto">{this.props.data.contacto.title}</Link>
+                                <img style={{ width: 25, paddingTop: 10, marginLeft: 8, cursor: "pointer" }} onChange={this.props.handelChangeIdioma} src={imagesPath[imageName]} onClick={this.toggleImage} />
                             </article>
                         </section>
                         <section className="buscarylinks">
                             <article className="groupinput">
-                               <AutoComplete/>
+                                <AutoComplete />
                                 {/* <img src={Search} alt="img search" style={{zIndex: "999"}}/> */}
                             </article>
                             <a href="https://es.linkedin.com/company/t-rezconsulting" target="_blank">
                                 <FontAwesomeIcon icon={['fab', 'linkedin-in']} size="2x" />
                             </a>
-                            <a href="https://twitter.com/t_rezconsulting"  target="_blank">
+                            <a href="https://twitter.com/t_rezconsulting" target="_blank">
                                 <FontAwesomeIcon icon={['fab', 'twitter']} size="2x" />
                             </a>
                             <Link to="/ComingSoon">
@@ -121,12 +136,12 @@ export default class CustomNav extends React.Component {
                         <hr className="hrNavLinks" />
                         <section className="containerSec">
                             <article className="linksSecundarios">
-                                <Link to="/Servicios/RemediosC">Remedios Comerciales</Link>
-                                <Link to="/DisputasComerciales">Disputas Comerciales</Link>
-                                <Link to="/LitigiosAntidumping/">Litigios Antidumping</Link>
-                                <Link to="/EconomiaLitigios/">Economía-Litigios</Link>
-                                <Link to="/MonitoreoEstrategico/">Monitoreo Estratégico</Link>
-                                <Link to="/Mx-USA-TradePlanning/">Mx-USA Trade Planning</Link>
+                                <Link to="/Servicios/RemediosC">{this.props.data.servicios.t1}</Link>
+                                <Link to="/DisputasComerciales">{this.props.data.servicios.t2}</Link>
+                                <Link to="/LitigiosAntidumping/">{this.props.data.servicios.t3}</Link>
+                                <Link to="/EconomiaLitigios/">{this.props.data.servicios.t4}</Link>
+                                <Link to="/MonitoreoEstrategico/">{this.props.data.servicios.t5}</Link>
+                                <Link to="/Mx-USA-TradePlanning/">{this.props.data.servicios.t6}</Link>
                             </article>
                         </section>
                     </header>
