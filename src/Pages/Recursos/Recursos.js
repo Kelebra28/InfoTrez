@@ -117,7 +117,7 @@ const Recursos = props => {
                     />
 
                 </section>
-                <ContenedorDer />
+                <ContenedorDer data={props.data}/>
             </div>
         </section>
     );

@@ -49,7 +49,7 @@ const DisputasComerciales = props => {
                         parrafoDos={props.data.disputas.panelesOMC.p1}
                     />
                 </section>
-                <ContenedorDer />
+                <ContenedorDer  data={props.data}/>
             </div>
         </section>
 

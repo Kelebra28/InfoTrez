@@ -63,7 +63,7 @@ const Industrias = props => {
                         parrafoDos={props.data.industrias.consumo.p1}
                     />
                 </section>
-                <ContenedorDer />
+                <ContenedorDer data={props.data}/>
             </div>
         </section>
     );

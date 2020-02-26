@@ -43,7 +43,7 @@ const Nosotros = props => {
                     // parrafoNueve={props.data.socias.Itziar.p1}
                     />
                 </section>
-                <ContenedorDer />
+                <ContenedorDer data={props.data}/>
             </div>
         </section>
 

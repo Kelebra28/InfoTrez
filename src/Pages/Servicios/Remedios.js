@@ -110,7 +110,7 @@ const RemediosCo = props => {
                         parrafoDos={props.data.remedios.cobertura.p1}
                     />
                 </section>
-                <ContenedorDer/>
+                <ContenedorDer data={props.data}/>
             </div>
         </section>
 

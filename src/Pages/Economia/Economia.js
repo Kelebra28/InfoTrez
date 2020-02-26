@@ -80,7 +80,7 @@ const Economia = props => {
                         parrafoDos={props.data.economia.verificacion.p1}
                     />
                 </section>
-                <ContenedorDer />
+                <ContenedorDer  data={props.data}/>
             </div>
         </section>
 

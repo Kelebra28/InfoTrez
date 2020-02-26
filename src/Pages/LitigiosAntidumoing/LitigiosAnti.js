@@ -70,7 +70,7 @@ const LitigiosAnti = props => {
                         parrafoDos={props.data.litigios.peritajes.p1}
                     />
                 </section>
-                <ContenedorDer />
+                <ContenedorDer data={props.data}/>
             </div>
         </section>
 

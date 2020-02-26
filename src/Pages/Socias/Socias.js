@@ -28,7 +28,7 @@ const Socias = props => {
                         title={props.data.socias.titleS}
                     />
                 </div>
-                <ContenedorDer/>
+                <ContenedorDer data={props.data}/>
             </article>
         </section>
 

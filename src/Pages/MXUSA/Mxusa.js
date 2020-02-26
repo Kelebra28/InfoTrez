@@ -58,7 +58,7 @@ const MXUSA = props => {
                         parrafoDos={props.data.tradepla.verificaciones.p1}
                     />
                 </section>
-                <ContenedorDer/>
+                <ContenedorDer data={props.data}/>
             </div>
         </section>
 

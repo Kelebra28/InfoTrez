@@ -35,7 +35,7 @@ const RemediosComerciales = props => {
                     </section>
                 </section>
             </div>
-            <ContenedorDer/>
+            <ContenedorDer data={props.data}/>
         </section>
 
     );

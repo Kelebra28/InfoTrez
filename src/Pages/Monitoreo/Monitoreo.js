@@ -51,7 +51,7 @@ const Monitoreo = props => {
                         parrafoDos={props.data.monitoreos.alertas.p1}
                     />
                 </section>
-                <ContenedorDer />
+                <ContenedorDer  data={props.data}/>
             </div>
         </section>
 

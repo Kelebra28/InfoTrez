@@ -42,7 +42,7 @@ const Servicios = props => {
                     <p> {props.data.servicios.p7} </p>
                     <p> {props.data.servicios.p8} </p>
                 </section>
-                <ContenedorDer />
+                <ContenedorDer  data={props.data}/>
             </div>
         </section>
 

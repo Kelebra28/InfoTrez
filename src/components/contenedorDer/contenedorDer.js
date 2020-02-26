@@ -3,10 +3,20 @@ import './styles.css'
 import seccIzq from '../../assents/Linkedin.png';
 import seccDer from '../../assents/Twiter.png';
 import seccDown from '../../assents/Banner.png'
-import { FacebookProvider, Page } from 'react-facebook';
+import seccDownEng from '../../assents/BannerEng.png'
+import Esp from '../../Lang/Esp.json';
+// import { FacebookProvider, Page } from 'react-facebook';
 
-const ContenedorDer = () => {
+const dataEsp = Esp
 
+const ContenedorDer = (props) => {
+  
+  const img = props.data === dataEsp 
+      ?
+      <img src={seccDown} alt="banner"/> 
+      : 
+      <img src={seccDownEng} alt="banner"/>
+  
   return (
     <section className="seccionDer d-none d-lg-block">
       {/* <FacebookProvider appId="182395702322445">
@@ -27,7 +37,7 @@ const ContenedorDer = () => {
         </div>
       </article>
       <article>
-        <img src={seccDown} alt="banner"/>
+        {img}
       </article>
     </section>
   )

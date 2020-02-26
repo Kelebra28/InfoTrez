@@ -9,9 +9,24 @@ import imgSocia from '../../Img/Itziar.png'
 import './Socias.css'
 import '../Pages.css'
 import imgLap from '../../Img/planta.png'
-import cv from '../../assents/cv-itziar.pdf'
+import cvEsp from '../../assents/cv-itziar.pdf'
+import cvEng from '../../assents/cv-itziar-eng.pdf'
+import Esp from '../../Lang/Esp.json';
+
+const dataEsp = Esp
 
 const SociasIEMS = props => {
+
+    const cv = props.data === dataEsp
+        ?
+        <a href={cvEsp} target="_blank">
+            <FontAwesomeIcon icon={['far', 'file-pdf']} />
+        </a>
+        :
+        <a href={cvEng} target="_blank">
+            <FontAwesomeIcon icon={['far', 'file-pdf']} />
+        </a>
+        
     return (
         <section className="preventMain">
             <div className="page main">
@@ -43,9 +58,7 @@ const SociasIEMS = props => {
                                 <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
                             </a>
                             <a href="mailto:iem@t-rezconsulting.com">iem@t-rezconsulting.com</a>
-                            <a href={cv} target="_blank">
-                                <FontAwesomeIcon icon={['far', 'file-pdf']} />
-                            </a>
+                            {cv}
                         </div>
                     </div>
 
@@ -67,7 +80,7 @@ const SociasIEMS = props => {
                     </div>
 
                 </section>
-                <ContenedorDer />
+                <ContenedorDer  data={props.data}/>
             </div>
         </section>
     );
