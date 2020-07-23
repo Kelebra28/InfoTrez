@@ -9,7 +9,7 @@ import imgSocia from '../../Img/Layer2.png'
 import imgLap from '../../Img/lapcafe.jpg'
 import './Socias.css'
 import '../Pages.css'
-import cvEsp from '../../assents/cv-luz.pdf'
+import cvEsp from '../../assents/cv-luz-esp.pdf'
 import cvEng from '../../assents/cv-luz-eng.pdf'
 import Esp from '../../Lang/Esp.json';
 

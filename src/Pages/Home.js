@@ -4,7 +4,7 @@ import MenuPrin from '../components/MenuPrin/MenuPrin'
 const Home = props => {
     return (
         <div className="page">
-            <MenuPrin/>
+            <MenuPrin data={props.data}/>
     </div>
     );
 

@@ -1,4 +1,8 @@
 {
+    "home": {
+        "p1": "In defense of fair trade",
+        "p2": "and competition on equal terms"
+    },
     "nosotros": {
         "title": "About us",
         "consultig": {
@@ -55,12 +59,12 @@
     },
     "servicios": {
         "title": "Services",
-        "t1": "TRADE REMEDIES",
-        "t2": "TRADE DISPUTES",
-        "t3": "ANTIDUMPING LITIGATION",
-        "t4": "ECONOMIC LITIGATION CONSULTING",
-        "t5": "STRATEGIC MONITORING",
-        "t6": "MX-USA TRADE PLANNING",
+        "t1": "Trade Remedies",
+        "t2": "Trade Disputes",
+        "t3": "Antidumping Litigation",
+        "t4": "Economic Litigation Consulting",
+        "t5": "Strategic Monitoring",
+        "t6": "Mx-USA Trade Planning",
         "p1": "T-REZ Consulting (T-REZ) is a firm specialized in “Trade Remedies” and International Dispute Settlements.",
         "p2": "We offer to domestic producers our specialized knowledge in international law and economics to advise them in all the stages of the several procedures against dumping practices or against unfair international competition by subsidies and financial support by governments, and also assist them in international dispute settlements.",
         "p3": "T-REZ services include a wide variety of services regarding trade remedies and international dispute settlements mechanisms:",
@@ -111,7 +115,7 @@
         }
     },
     "disputas": {
-        "title": "TRADE DISPUTES",
+        "title": "Trade Disputes",
         "panelesTLC": {
             "h1": "NAFTA-USMCA PANELS",
             "p1": "T-REZ offers representation of parties in Binational Panels under USMCA (previously NAFTA), in favor of final determinations imposing antidumping duties that have been challenged by exporters."
@@ -274,7 +278,7 @@
             "p2": "Foreign Trade Law Regulations",
             "p3": "Federal Official Gazette (Diario Oficial de la Federación) ",
             "p4": "Unit of International Commercial Trade Practices (UPCI)",
-            "p5" :"Consultative Council of International Trade Practices (CCPCI)"
+            "p5": "Consultative Council of International Trade Practices (CCPCI)"
         },
         "antidumpigEUA": {
             "h1": "ANTIDUMPING IN THE US",

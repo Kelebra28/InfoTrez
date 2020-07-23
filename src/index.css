@@ -170,6 +170,7 @@ body {
       text-decoration: none;
       font-size: 10px;
       font-weight: bold;
+      text-transform: capitalize;
   }
   .buscarylinks {
       /* border: solid 1px; */

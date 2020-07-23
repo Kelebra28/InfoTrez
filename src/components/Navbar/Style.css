@@ -143,6 +143,7 @@ body {
     text-decoration: none;
     font-size: 90%;
     font-weight: bold;
+    text-transform: capitalize;
 }
 
 .linksSecundarios a:hover {

@@ -100,6 +100,7 @@
         color: #631514;
         text-decoration: none;
         font-size: 7pt;
+        text-transform: capitalize;
     }
     .buscarylinks {
         /* border: solid 1px; */
