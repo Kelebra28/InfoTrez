@@ -225,7 +225,7 @@
         justify-content: space-around;
         flex-wrap: wrap-reverse;
         color: #fff;
-        height: 18em;
+        height: auto;
         margin-top: 1em;
         font-size: 13px;
     }

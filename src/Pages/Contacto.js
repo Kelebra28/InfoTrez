@@ -7,7 +7,7 @@ const Contacto = props => {
     return (
         <section className="preventMain">
             <div className="page mainContact">
-                    {/* <div className="seccionUp">
+                {/* <div className="seccionUp">
                         <Contenido 
                             className="contenidoContacto" data={props.data}
                             parrafo={props.data.contacto.direccion}
@@ -15,14 +15,15 @@ const Contacto = props => {
                             parrafoTres={props.data.contacto.email}
                         />
                     </div> */}
-                    <div className="seccionUp">
-                        <p className="text-center"><b>Torre Siglum Insurgentes Sur #1898 Piso 14 Despacho 1421 Col. Florida 01020 CDMX, México</b></p>
-                        <p>(55)9171-1047/52</p>
-                        <a href="mailto:trez@t-rezconsulting.com">trez@t-rezconsulting.com</a>
-                    </div>
-                    <div className="seccionDown">
-                        <img className="" src={imgContacto} alt="" srcset="" />
-                    </div>
+                <div className="seccionUp">
+                    <p className="text-center"><b>Torre IZA BC Portal San Ángel Av. Revolución No. 1267 Piso 19 Ofc. A Col. Alpes C.P. 01010 CDMX, Álvaro Obregón</b></p>
+                    <p>Conmutador: (55) 7698-0243‬</p>
+                    <p>Tel. Directo T-REZ: (55) 1246-0682‬</p>
+                    <a href="mailto:trez@t-rezconsulting.com">trez@t-rezconsulting.com</a>
+                </div>
+                <div className="seccionDown">
+                    <img className="" src={imgContacto} alt="" srcset="" />
+                </div>
             </div>
         </section>
 

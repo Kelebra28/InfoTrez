@@ -1,7 +1,7 @@
 import React from 'react';
 import MenuPq from '../MenuPeque/MenuPeque'
-import imgLap from '../../Img/lapcafe.jpg'
-import imgPlanta from '../../Img/planta.png'
+// import imgLap from '../../Img/lapcafe.jpg'
+// import imgPlanta from '../../Img/planta.png'
 import './Style.css'
 
 const MenuIzq = (props) => {
@@ -66,7 +66,7 @@ const MenuIzq = (props) => {
                 />
             </article>
             <article className="contenedorFotoIzq">
-                <img style={{objectFit: "cover", height: props.height, marginTop: props.margin}} src={props.imgMenuIzq} alt="img menu izq" />
+                <img style={{ objectFit: "cover", height: props.height, marginTop: props.margin }} src={props.imgMenuIzq} alt="img menu izq" />
             </article>
         </section>
 

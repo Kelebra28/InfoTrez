@@ -1,7 +1,7 @@
 import React from 'react';
 import MenuPq from '../PqLink/menuPq'
-import imgLap from '../../Img/lapcafe.jpg'
-import imgPlanta from '../../Img/planta.png'
+// import imgLap from '../../Img/lapcafe.jpg'
+// import imgPlanta from '../../Img/planta.png'
 import './Style.css'
 
 const MenuIzq = (props) => {

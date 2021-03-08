@@ -9,7 +9,7 @@ import imgSocia from '../../Img/Itziar.png'
 import './Socias.css'
 import '../Pages.css'
 import imgLap from '../../Img/planta.png'
-import cvEsp from '../../assents/cv-itziar.pdf'
+import cvEsp from '../../assents/cv-itziar-esp.pdf'
 import cvEng from '../../assents/cv-itziar-eng.pdf'
 import Esp from '../../Lang/Esp.json';
 
@@ -26,7 +26,7 @@ const SociasIEMS = props => {
         <a href={cvEng} target="_blank">
             <FontAwesomeIcon icon={['far', 'file-pdf']} />
         </a>
-        
+
     return (
         <section className="preventMain">
             <div className="page main">
@@ -80,7 +80,7 @@ const SociasIEMS = props => {
                     </div>
 
                 </section>
-                <ContenedorDer  data={props.data}/>
+                <ContenedorDer data={props.data} />
             </div>
         </section>
     );

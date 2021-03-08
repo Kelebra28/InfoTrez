@@ -13,7 +13,7 @@ import cvEsp from '../../assents/cv-luz-esp.pdf'
 import cvEng from '../../assents/cv-luz-eng.pdf'
 import Esp from '../../Lang/Esp.json';
 
-const dataEsp = Esp
+const dataEsp = Esp;
 
 const SociasLert = props => {
 
@@ -86,4 +86,4 @@ const SociasLert = props => {
 
 }
 
-export default SociasLert; 
+export default SociasLert;

@@ -9,14 +9,15 @@ const FooterResponsive = (props) => {
                 <img src={SomaLogo} alt="logo soma" />
             </section>
             <section className="contacto">
-                <p>(55) 9171-1027/52</p>
+                <p> Conmutador: (55) 557698-0243‬ </p>
+                <p> Tel. Directo T-REZ: (55) 1246-0682‬ </p>
                 <a href="mailto:trez@t-rezconsulting.com">trez@t-rezconsulting.com</a>
             </section>
             <section className="direccion">
                 <center>
-                    <p>Torre Siglum Insurgentes Sur #1898 Piso 14 Despacho 1421</p>
+                    <p>Torre IZA BC Portal San Ángel Av. Revolución No. 1267 Piso 19 Ofc. A</p>
                 </center>
-                <p>Col. Florida 01020 CDMX, México</p>
+                <p>Col. Alpes C.P. 01010 CDMX, Álvaro Obregón</p>
             </section>
         </footer>
 
